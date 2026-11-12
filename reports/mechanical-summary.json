@@ -1,0 +1,27 @@
+{
+  "board_outline_xy_mm": [
+    101.6,
+    76.2
+  ],
+  "step_solid_z_span_mm": 1.51,
+  "mounting_bore_diameter_mm": 3.2,
+  "step_and_excellon_mounting_centers_mm": [
+    [
+      5.334,
+      -70.866
+    ],
+    [
+      5.334,
+      -5.334
+    ],
+    [
+      96.266,
+      -70.866
+    ],
+    [
+      96.266,
+      -5.334
+    ]
+  ],
+  "coordinate_origin": "KiCad board origin, X right and Y up in STEP"
+}

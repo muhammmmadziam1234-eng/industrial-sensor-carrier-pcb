@@ -28,3 +28,13 @@ kicad-cli pcb export pos --side front --format csv --units mm --smd-only --outpu
 kicad-cli pcb export ipcd356 --output fab/meridian-carrier.d356 cad/meridian-carrier.kicad_pcb
 python verify_fab.py
 ~~~
+
+## Mechanical exchange and board image
+
+Export and check the board-only STEP after a CAD change. Enclosure mounting geometry uses the same origin as the nonplated Excellon file. Use the schematic, parts list and supplier drawings for populated clearance.
+
+~~~sh
+kicad-cli pcb export step --board-only --no-components --force --output cad/meridian-carrier-board.step cad/meridian-carrier.kicad_pcb
+python verify_mechanical.py --report reports/mechanical-summary.json
+kicad-cli pcb render --width 1660 --height 1080 --side top --rotate 31,0,24 --zoom 0.93 --quality high --background transparent --output media/meridian-board-render.png cad/meridian-carrier.kicad_pcb
+~~~

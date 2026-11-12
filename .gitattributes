@@ -7,3 +7,4 @@ fab/drill/** -text
 fab/*.csv -text
 fab/*.d356 -text whitespace=-blank-at-eol
 fab/manifest.sha256 -text
+*.step -text -diff
