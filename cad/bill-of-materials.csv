@@ -1,0 +1,44 @@
+Reference,Value,Package or connector pitch
+J1,Controller interface,2.54 mm 2x12
+J2,RS-485 bus,2.54 mm 1x3
+J3,SPI expansion,2.54 mm 1x6
+J4,I2C expansion,2.54 mm 1x4
+J5,Analog inputs,2.54 mm 1x3
+J6,Open-drain outputs,2.54 mm 1x3
+J7,3.3 V power input,2.54 mm 1x2
+J8,GPIO expansion,2.54 mm 1x6
+JP1,RS-485 termination enable,2.54 mm 1x2
+JP2,I2C pull-up enable,2.54 mm 1x2
+U1,THVD1450DR,SOIC-8 3.9 mm
+R1,10 k,0603
+R2,120 ohm,0805
+C1,100 nF,0603
+C2,4.7 uF,0805
+C3,22 uF,0805
+C4,100 nF,0603
+R3,4.7 k,0603
+R4,4.7 k,0603
+R5,1 k,0603
+R6,1 k,0603
+C5,100 nF,0603
+C6,100 nF,0603
+Q1,AO3400A,SOT-23
+R7,100 ohm,0603
+R8,100 k,0603
+R11,680 ohm,0603
+D1,Green LED,0603
+Q2,AO3400A,SOT-23
+R9,100 ohm,0603
+R10,100 k,0603
+R12,680 ohm,0603
+D2,Green LED,0603
+TP1,3V3,1.5 mm test land
+TP2,GND,1.5 mm test land
+TP3,UART_TX,1.5 mm test land
+TP4,UART_RX,1.5 mm test land
+TP5,RS_DIR,1.5 mm test land
+TP6,I2C_SDA,1.5 mm test land
+TP7,I2C_SCL,1.5 mm test land
+TP8,ADC0,1.5 mm test land
+TP9,ADC1,1.5 mm test land
+TP10,RESET_N,1.5 mm test land

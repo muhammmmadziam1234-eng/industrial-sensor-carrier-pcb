@@ -1,0 +1,4 @@
+ezdxf==1.4.3
+kiutils==1.4.8
+shapely==2.1.2
+Pillow==13.0.0

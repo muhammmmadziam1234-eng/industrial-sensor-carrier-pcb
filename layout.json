@@ -1,0 +1,8015 @@
+{
+  "grid_mm": 0.254,
+  "width": 400,
+  "height": 300,
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "Controller interface",
+      "package": "2.54 mm 2x12",
+      "x": 152,
+      "y": 83,
+      "pads": [
+        {
+          "ref": "J1",
+          "pin": 1,
+          "net": "3V3",
+          "x": 152,
+          "y": 83,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 2,
+          "net": "GND",
+          "x": 162,
+          "y": 83,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 3,
+          "net": "SPI_SCK",
+          "x": 152,
+          "y": 93,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 4,
+          "net": "SPI_MOSI",
+          "x": 162,
+          "y": 93,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 5,
+          "net": "SPI_MISO",
+          "x": 152,
+          "y": 103,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 6,
+          "net": "SPI_CS0",
+          "x": 162,
+          "y": 103,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 7,
+          "net": "UART_TX",
+          "x": 152,
+          "y": 113,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 8,
+          "net": "UART_RX",
+          "x": 162,
+          "y": 113,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 9,
+          "net": "RS_DIR",
+          "x": 152,
+          "y": 123,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 10,
+          "net": "I2C_SDA",
+          "x": 162,
+          "y": 123,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 11,
+          "net": "I2C_SCL",
+          "x": 152,
+          "y": 133,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 12,
+          "net": "ADC0",
+          "x": 162,
+          "y": 133,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 13,
+          "net": "ADC1",
+          "x": 152,
+          "y": 143,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 14,
+          "net": "OUT0",
+          "x": 162,
+          "y": 143,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 15,
+          "net": "OUT1",
+          "x": 152,
+          "y": 153,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 16,
+          "net": "LED0",
+          "x": 162,
+          "y": 153,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 17,
+          "net": "LED1",
+          "x": 152,
+          "y": 163,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 18,
+          "net": "RESET_N",
+          "x": 162,
+          "y": 163,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 19,
+          "net": "GPIO0",
+          "x": 152,
+          "y": 173,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 20,
+          "net": "GPIO1",
+          "x": 162,
+          "y": 173,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 21,
+          "net": "GPIO2",
+          "x": 152,
+          "y": 183,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 22,
+          "net": "GPIO3",
+          "x": 162,
+          "y": 183,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 23,
+          "net": "GND",
+          "x": 152,
+          "y": 193,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J1",
+          "pin": 24,
+          "net": "3V3",
+          "x": 162,
+          "y": 193,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "value": "RS-485 bus",
+      "package": "2.54 mm 1x3",
+      "x": 366,
+      "y": 54,
+      "pads": [
+        {
+          "ref": "J2",
+          "pin": 1,
+          "net": "RS_A",
+          "x": 366,
+          "y": 54,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J2",
+          "pin": 2,
+          "net": "RS_B",
+          "x": 366,
+          "y": 64,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J2",
+          "pin": 3,
+          "net": "GND",
+          "x": 366,
+          "y": 74,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "value": "SPI expansion",
+      "package": "2.54 mm 1x6",
+      "x": 366,
+      "y": 99,
+      "pads": [
+        {
+          "ref": "J3",
+          "pin": 1,
+          "net": "3V3",
+          "x": 366,
+          "y": 99,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J3",
+          "pin": 2,
+          "net": "GND",
+          "x": 366,
+          "y": 109,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J3",
+          "pin": 3,
+          "net": "SPI_SCK",
+          "x": 366,
+          "y": 119,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J3",
+          "pin": 4,
+          "net": "SPI_MOSI",
+          "x": 366,
+          "y": 129,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J3",
+          "pin": 5,
+          "net": "SPI_MISO",
+          "x": 366,
+          "y": 139,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J3",
+          "pin": 6,
+          "net": "SPI_CS0",
+          "x": 366,
+          "y": 149,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J4",
+      "value": "I2C expansion",
+      "package": "2.54 mm 1x4",
+      "x": 366,
+      "y": 171,
+      "pads": [
+        {
+          "ref": "J4",
+          "pin": 1,
+          "net": "3V3",
+          "x": 366,
+          "y": 171,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J4",
+          "pin": 2,
+          "net": "GND",
+          "x": 366,
+          "y": 181,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J4",
+          "pin": 3,
+          "net": "I2C_SDA",
+          "x": 366,
+          "y": 191,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J4",
+          "pin": 4,
+          "net": "I2C_SCL",
+          "x": 366,
+          "y": 201,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J5",
+      "value": "Analog inputs",
+      "package": "2.54 mm 1x3",
+      "x": 366,
+      "y": 226,
+      "pads": [
+        {
+          "ref": "J5",
+          "pin": 1,
+          "net": "ADC0_RAW",
+          "x": 366,
+          "y": 226,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J5",
+          "pin": 2,
+          "net": "ADC1_RAW",
+          "x": 366,
+          "y": 236,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J5",
+          "pin": 3,
+          "net": "GND",
+          "x": 366,
+          "y": 246,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J6",
+      "value": "Open-drain outputs",
+      "package": "2.54 mm 1x3",
+      "x": 45,
+      "y": 216,
+      "pads": [
+        {
+          "ref": "J6",
+          "pin": 1,
+          "net": "LOAD0",
+          "x": 45,
+          "y": 216,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J6",
+          "pin": 2,
+          "net": "LOAD1",
+          "x": 45,
+          "y": 226,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J6",
+          "pin": 3,
+          "net": "GND",
+          "x": 45,
+          "y": 236,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J7",
+      "value": "3.3 V power input",
+      "package": "2.54 mm 1x2",
+      "x": 44,
+      "y": 55,
+      "pads": [
+        {
+          "ref": "J7",
+          "pin": 1,
+          "net": "3V3",
+          "x": 44,
+          "y": 55,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J7",
+          "pin": 2,
+          "net": "GND",
+          "x": 44,
+          "y": 65,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "J8",
+      "value": "GPIO expansion",
+      "package": "2.54 mm 1x6",
+      "x": 44,
+      "y": 92,
+      "pads": [
+        {
+          "ref": "J8",
+          "pin": 1,
+          "net": "GPIO0",
+          "x": 44,
+          "y": 92,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J8",
+          "pin": 2,
+          "net": "GPIO1",
+          "x": 44,
+          "y": 102,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J8",
+          "pin": 3,
+          "net": "GPIO2",
+          "x": 44,
+          "y": 112,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J8",
+          "pin": 4,
+          "net": "GPIO3",
+          "x": 44,
+          "y": 122,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J8",
+          "pin": 5,
+          "net": "RESET_N",
+          "x": 44,
+          "y": 132,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "J8",
+          "pin": 6,
+          "net": "GND",
+          "x": 44,
+          "y": 142,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "JP1",
+      "value": "RS-485 termination enable",
+      "package": "2.54 mm 1x2",
+      "x": 327,
+      "y": 85,
+      "pads": [
+        {
+          "ref": "JP1",
+          "pin": 1,
+          "net": "TERM_SW",
+          "x": 327,
+          "y": 85,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "JP1",
+          "pin": 2,
+          "net": "RS_B",
+          "x": 337,
+          "y": 85,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "JP2",
+      "value": "I2C pull-up enable",
+      "package": "2.54 mm 1x2",
+      "x": 323,
+      "y": 198,
+      "pads": [
+        {
+          "ref": "JP2",
+          "pin": 1,
+          "net": "3V3",
+          "x": 323,
+          "y": 198,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        },
+        {
+          "ref": "JP2",
+          "pin": 2,
+          "net": "I2C_PULLUP",
+          "x": 333,
+          "y": 198,
+          "width": 1.65,
+          "height": 1.65,
+          "drill": 0.9
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "THVD1450DR",
+      "package": "SOIC-8 3.9 mm",
+      "x": 298,
+      "y": 58,
+      "pads": [
+        {
+          "ref": "U1",
+          "pin": 1,
+          "net": "UART_RX",
+          "x": 287,
+          "y": 50,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 2,
+          "net": "RS_DIR",
+          "x": 287,
+          "y": 55,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 3,
+          "net": "RS_DIR",
+          "x": 287,
+          "y": 60,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 4,
+          "net": "UART_TX",
+          "x": 287,
+          "y": 65,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 5,
+          "net": "GND",
+          "x": 309,
+          "y": 65,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 6,
+          "net": "RS_A",
+          "x": 309,
+          "y": 60,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 7,
+          "net": "RS_B",
+          "x": 309,
+          "y": 55,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        },
+        {
+          "ref": "U1",
+          "pin": 8,
+          "net": "3V3",
+          "x": 309,
+          "y": 50,
+          "width": 1.48,
+          "height": 0.65,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "value": "10 k",
+      "package": "0603",
+      "x": 260,
+      "y": 58,
+      "pads": [
+        {
+          "ref": "R1",
+          "pin": 1,
+          "net": "RS_DIR",
+          "x": 256,
+          "y": 58,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R1",
+          "pin": 2,
+          "net": "GND",
+          "x": 264,
+          "y": 58,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "value": "120 ohm",
+      "package": "0805",
+      "x": 336,
+      "y": 65,
+      "pads": [
+        {
+          "ref": "R2",
+          "pin": 1,
+          "net": "RS_A",
+          "x": 336,
+          "y": 60,
+          "width": 1.25,
+          "height": 1.18,
+          "drill": 0
+        },
+        {
+          "ref": "R2",
+          "pin": 2,
+          "net": "TERM_SW",
+          "x": 336,
+          "y": 70,
+          "width": 1.25,
+          "height": 1.18,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C1",
+      "value": "100 nF",
+      "package": "0603",
+      "x": 313,
+      "y": 40,
+      "pads": [
+        {
+          "ref": "C1",
+          "pin": 1,
+          "net": "3V3",
+          "x": 309,
+          "y": 40,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "C1",
+          "pin": 2,
+          "net": "GND",
+          "x": 317,
+          "y": 40,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "value": "4.7 uF",
+      "package": "0805",
+      "x": 332,
+      "y": 40,
+      "pads": [
+        {
+          "ref": "C2",
+          "pin": 1,
+          "net": "3V3",
+          "x": 327,
+          "y": 40,
+          "width": 1.18,
+          "height": 1.25,
+          "drill": 0
+        },
+        {
+          "ref": "C2",
+          "pin": 2,
+          "net": "GND",
+          "x": 337,
+          "y": 40,
+          "width": 1.18,
+          "height": 1.25,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "value": "22 uF",
+      "package": "0805",
+      "x": 76,
+      "y": 59,
+      "pads": [
+        {
+          "ref": "C3",
+          "pin": 1,
+          "net": "3V3",
+          "x": 71,
+          "y": 59,
+          "width": 1.18,
+          "height": 1.25,
+          "drill": 0
+        },
+        {
+          "ref": "C3",
+          "pin": 2,
+          "net": "GND",
+          "x": 81,
+          "y": 59,
+          "width": 1.18,
+          "height": 1.25,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "value": "100 nF",
+      "package": "0603",
+      "x": 96,
+      "y": 59,
+      "pads": [
+        {
+          "ref": "C4",
+          "pin": 1,
+          "net": "3V3",
+          "x": 92,
+          "y": 59,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "C4",
+          "pin": 2,
+          "net": "GND",
+          "x": 100,
+          "y": 59,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "value": "4.7 k",
+      "package": "0603",
+      "x": 305,
+      "y": 176,
+      "pads": [
+        {
+          "ref": "R3",
+          "pin": 1,
+          "net": "I2C_SDA",
+          "x": 301,
+          "y": 176,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R3",
+          "pin": 2,
+          "net": "I2C_PULLUP",
+          "x": 309,
+          "y": 176,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "value": "4.7 k",
+      "package": "0603",
+      "x": 305,
+      "y": 188,
+      "pads": [
+        {
+          "ref": "R4",
+          "pin": 1,
+          "net": "I2C_SCL",
+          "x": 301,
+          "y": 188,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R4",
+          "pin": 2,
+          "net": "I2C_PULLUP",
+          "x": 309,
+          "y": 188,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "value": "1 k",
+      "package": "0603",
+      "x": 309,
+      "y": 221,
+      "pads": [
+        {
+          "ref": "R5",
+          "pin": 1,
+          "net": "ADC0_RAW",
+          "x": 305,
+          "y": 221,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R5",
+          "pin": 2,
+          "net": "ADC0",
+          "x": 313,
+          "y": 221,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "value": "1 k",
+      "package": "0603",
+      "x": 309,
+      "y": 238,
+      "pads": [
+        {
+          "ref": "R6",
+          "pin": 1,
+          "net": "ADC1_RAW",
+          "x": 305,
+          "y": 238,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R6",
+          "pin": 2,
+          "net": "ADC1",
+          "x": 313,
+          "y": 238,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "value": "100 nF",
+      "package": "0603",
+      "x": 284,
+      "y": 221,
+      "pads": [
+        {
+          "ref": "C5",
+          "pin": 1,
+          "net": "ADC0",
+          "x": 284,
+          "y": 217,
+          "width": 0.9,
+          "height": 0.95,
+          "drill": 0
+        },
+        {
+          "ref": "C5",
+          "pin": 2,
+          "net": "GND",
+          "x": 284,
+          "y": 225,
+          "width": 0.9,
+          "height": 0.95,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "value": "100 nF",
+      "package": "0603",
+      "x": 284,
+      "y": 240,
+      "pads": [
+        {
+          "ref": "C6",
+          "pin": 1,
+          "net": "ADC1",
+          "x": 284,
+          "y": 236,
+          "width": 0.9,
+          "height": 0.95,
+          "drill": 0
+        },
+        {
+          "ref": "C6",
+          "pin": 2,
+          "net": "GND",
+          "x": 284,
+          "y": 244,
+          "width": 0.9,
+          "height": 0.95,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "Q1",
+      "value": "AO3400A",
+      "package": "SOT-23",
+      "x": 92,
+      "y": 210,
+      "pads": [
+        {
+          "ref": "Q1",
+          "pin": 1,
+          "net": "GATE0",
+          "x": 88,
+          "y": 214,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        },
+        {
+          "ref": "Q1",
+          "pin": 2,
+          "net": "GND",
+          "x": 96,
+          "y": 214,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        },
+        {
+          "ref": "Q1",
+          "pin": 3,
+          "net": "LOAD0",
+          "x": 92,
+          "y": 206,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "value": "100 ohm",
+      "package": "0603",
+      "x": 122,
+      "y": 205,
+      "pads": [
+        {
+          "ref": "R7",
+          "pin": 1,
+          "net": "OUT0",
+          "x": 118,
+          "y": 205,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R7",
+          "pin": 2,
+          "net": "GATE0",
+          "x": 126,
+          "y": 205,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "value": "100 k",
+      "package": "0603",
+      "x": 122,
+      "y": 219,
+      "pads": [
+        {
+          "ref": "R8",
+          "pin": 1,
+          "net": "GATE0",
+          "x": 118,
+          "y": 219,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R8",
+          "pin": 2,
+          "net": "GND",
+          "x": 126,
+          "y": 219,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "value": "680 ohm",
+      "package": "0603",
+      "x": 211,
+      "y": 250,
+      "pads": [
+        {
+          "ref": "R11",
+          "pin": 1,
+          "net": "LED0",
+          "x": 207,
+          "y": 250,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R11",
+          "pin": 2,
+          "net": "LED_AN0",
+          "x": 215,
+          "y": 250,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "value": "Green LED",
+      "package": "0603",
+      "x": 211,
+      "y": 268,
+      "pads": [
+        {
+          "ref": "D1",
+          "pin": 1,
+          "net": "LED_AN0",
+          "x": 207,
+          "y": 268,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "D1",
+          "pin": 2,
+          "net": "GND",
+          "x": 215,
+          "y": 268,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "Q2",
+      "value": "AO3400A",
+      "package": "SOT-23",
+      "x": 92,
+      "y": 242,
+      "pads": [
+        {
+          "ref": "Q2",
+          "pin": 1,
+          "net": "GATE1",
+          "x": 88,
+          "y": 246,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        },
+        {
+          "ref": "Q2",
+          "pin": 2,
+          "net": "GND",
+          "x": 96,
+          "y": 246,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        },
+        {
+          "ref": "Q2",
+          "pin": 3,
+          "net": "LOAD1",
+          "x": 92,
+          "y": 238,
+          "width": 0.87,
+          "height": 1.0,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "value": "100 ohm",
+      "package": "0603",
+      "x": 122,
+      "y": 237,
+      "pads": [
+        {
+          "ref": "R9",
+          "pin": 1,
+          "net": "OUT1",
+          "x": 118,
+          "y": 237,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R9",
+          "pin": 2,
+          "net": "GATE1",
+          "x": 126,
+          "y": 237,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R10",
+      "value": "100 k",
+      "package": "0603",
+      "x": 122,
+      "y": 251,
+      "pads": [
+        {
+          "ref": "R10",
+          "pin": 1,
+          "net": "GATE1",
+          "x": 118,
+          "y": 251,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R10",
+          "pin": 2,
+          "net": "GND",
+          "x": 126,
+          "y": 251,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "value": "680 ohm",
+      "package": "0603",
+      "x": 250,
+      "y": 250,
+      "pads": [
+        {
+          "ref": "R12",
+          "pin": 1,
+          "net": "LED1",
+          "x": 246,
+          "y": 250,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "R12",
+          "pin": 2,
+          "net": "LED_AN1",
+          "x": 254,
+          "y": 250,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "D2",
+      "value": "Green LED",
+      "package": "0603",
+      "x": 250,
+      "y": 268,
+      "pads": [
+        {
+          "ref": "D2",
+          "pin": 1,
+          "net": "LED_AN1",
+          "x": 246,
+          "y": 268,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        },
+        {
+          "ref": "D2",
+          "pin": 2,
+          "net": "GND",
+          "x": 254,
+          "y": 268,
+          "width": 0.95,
+          "height": 0.9,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP1",
+      "value": "3V3",
+      "package": "1.5 mm test land",
+      "x": 119,
+      "y": 42,
+      "pads": [
+        {
+          "ref": "TP1",
+          "pin": 1,
+          "net": "3V3",
+          "x": 119,
+          "y": 42,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP2",
+      "value": "GND",
+      "package": "1.5 mm test land",
+      "x": 137,
+      "y": 42,
+      "pads": [
+        {
+          "ref": "TP2",
+          "pin": 1,
+          "net": "GND",
+          "x": 137,
+          "y": 42,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP3",
+      "value": "UART_TX",
+      "package": "1.5 mm test land",
+      "x": 241,
+      "y": 84,
+      "pads": [
+        {
+          "ref": "TP3",
+          "pin": 1,
+          "net": "UART_TX",
+          "x": 241,
+          "y": 84,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP4",
+      "value": "UART_RX",
+      "package": "1.5 mm test land",
+      "x": 259,
+      "y": 84,
+      "pads": [
+        {
+          "ref": "TP4",
+          "pin": 1,
+          "net": "UART_RX",
+          "x": 259,
+          "y": 84,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP5",
+      "value": "RS_DIR",
+      "package": "1.5 mm test land",
+      "x": 277,
+      "y": 84,
+      "pads": [
+        {
+          "ref": "TP5",
+          "pin": 1,
+          "net": "RS_DIR",
+          "x": 277,
+          "y": 84,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP6",
+      "value": "I2C_SDA",
+      "package": "1.5 mm test land",
+      "x": 269,
+      "y": 177,
+      "pads": [
+        {
+          "ref": "TP6",
+          "pin": 1,
+          "net": "I2C_SDA",
+          "x": 269,
+          "y": 177,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP7",
+      "value": "I2C_SCL",
+      "package": "1.5 mm test land",
+      "x": 269,
+      "y": 190,
+      "pads": [
+        {
+          "ref": "TP7",
+          "pin": 1,
+          "net": "I2C_SCL",
+          "x": 269,
+          "y": 190,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP8",
+      "value": "ADC0",
+      "package": "1.5 mm test land",
+      "x": 260,
+      "y": 221,
+      "pads": [
+        {
+          "ref": "TP8",
+          "pin": 1,
+          "net": "ADC0",
+          "x": 260,
+          "y": 221,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP9",
+      "value": "ADC1",
+      "package": "1.5 mm test land",
+      "x": 260,
+      "y": 240,
+      "pads": [
+        {
+          "ref": "TP9",
+          "pin": 1,
+          "net": "ADC1",
+          "x": 260,
+          "y": 240,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    },
+    {
+      "ref": "TP10",
+      "value": "RESET_N",
+      "package": "1.5 mm test land",
+      "x": 87,
+      "y": 158,
+      "pads": [
+        {
+          "ref": "TP10",
+          "pin": 1,
+          "net": "RESET_N",
+          "x": 87,
+          "y": 158,
+          "width": 1.5,
+          "height": 1.5,
+          "drill": 0
+        }
+      ]
+    }
+  ],
+  "mounting": [
+    [
+      21,
+      21
+    ],
+    [
+      379,
+      21
+    ],
+    [
+      21,
+      279
+    ],
+    [
+      379,
+      279
+    ]
+  ],
+  "traces": [
+    [
+      "RS_A",
+      [
+        366,
+        54,
+        0
+      ],
+      [
+        336,
+        54,
+        0
+      ]
+    ],
+    [
+      "RS_A",
+      [
+        336,
+        54,
+        0
+      ],
+      [
+        336,
+        60,
+        0
+      ]
+    ],
+    [
+      "RS_A",
+      [
+        336,
+        60,
+        0
+      ],
+      [
+        309,
+        60,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        366,
+        64,
+        0
+      ],
+      [
+        341,
+        64,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        341,
+        64,
+        0
+      ],
+      [
+        341,
+        75,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        341,
+        75,
+        0
+      ],
+      [
+        337,
+        75,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        337,
+        75,
+        0
+      ],
+      [
+        337,
+        85,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        337,
+        85,
+        0
+      ],
+      [
+        333,
+        85,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        333,
+        85,
+        0
+      ],
+      [
+        333,
+        79,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        333,
+        79,
+        0
+      ],
+      [
+        309,
+        79,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        309,
+        79,
+        0
+      ],
+      [
+        309,
+        69,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        309,
+        69,
+        0
+      ],
+      [
+        303,
+        69,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        303,
+        69,
+        0
+      ],
+      [
+        303,
+        56,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        303,
+        56,
+        0
+      ],
+      [
+        309,
+        56,
+        0
+      ]
+    ],
+    [
+      "RS_B",
+      [
+        309,
+        56,
+        0
+      ],
+      [
+        309,
+        55,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        162,
+        113,
+        0
+      ],
+      [
+        259,
+        113,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        259,
+        113,
+        0
+      ],
+      [
+        259,
+        84,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        259,
+        84,
+        0
+      ],
+      [
+        271,
+        84,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        271,
+        84,
+        0
+      ],
+      [
+        271,
+        78,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        271,
+        78,
+        0
+      ],
+      [
+        281,
+        78,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        281,
+        78,
+        0
+      ],
+      [
+        281,
+        51,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        281,
+        51,
+        0
+      ],
+      [
+        287,
+        51,
+        0
+      ]
+    ],
+    [
+      "UART_RX",
+      [
+        287,
+        51,
+        0
+      ],
+      [
+        287,
+        50,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        152,
+        113,
+        0
+      ],
+      [
+        152,
+        112,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        152,
+        112,
+        0
+      ],
+      [
+        151,
+        112,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        151,
+        112,
+        0
+      ],
+      [
+        151,
+        109,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        151,
+        109,
+        0
+      ],
+      [
+        146,
+        109,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        146,
+        109,
+        0
+      ],
+      [
+        146,
+        77,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        146,
+        77,
+        0
+      ],
+      [
+        241,
+        77,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        241,
+        77,
+        0
+      ],
+      [
+        241,
+        84,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        241,
+        84,
+        0
+      ],
+      [
+        253,
+        84,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        253,
+        84,
+        0
+      ],
+      [
+        253,
+        78,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        253,
+        78,
+        0
+      ],
+      [
+        268,
+        78,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        268,
+        78,
+        0
+      ],
+      [
+        268,
+        75,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        268,
+        75,
+        0
+      ],
+      [
+        277,
+        75,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        277,
+        75,
+        0
+      ],
+      [
+        277,
+        74,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        277,
+        74,
+        3
+      ],
+      [
+        277,
+        70,
+        3
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        277,
+        70,
+        3
+      ],
+      [
+        285,
+        70,
+        3
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        285,
+        70,
+        0
+      ],
+      [
+        287,
+        70,
+        0
+      ]
+    ],
+    [
+      "UART_TX",
+      [
+        287,
+        70,
+        0
+      ],
+      [
+        287,
+        65,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        152,
+        123,
+        0
+      ],
+      [
+        152,
+        122,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        152,
+        122,
+        0
+      ],
+      [
+        151,
+        122,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        151,
+        122,
+        0
+      ],
+      [
+        151,
+        119,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        151,
+        119,
+        0
+      ],
+      [
+        146,
+        119,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        146,
+        119,
+        0
+      ],
+      [
+        146,
+        112,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        146,
+        112,
+        0
+      ],
+      [
+        143,
+        112,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        143,
+        112,
+        0
+      ],
+      [
+        143,
+        74,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        143,
+        74,
+        0
+      ],
+      [
+        264,
+        74,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        264,
+        74,
+        3
+      ],
+      [
+        264,
+        84,
+        3
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        264,
+        84,
+        3
+      ],
+      [
+        266,
+        84,
+        3
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        266,
+        84,
+        3
+      ],
+      [
+        266,
+        88,
+        3
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        266,
+        88,
+        0
+      ],
+      [
+        277,
+        88,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        277,
+        88,
+        0
+      ],
+      [
+        277,
+        84,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        277,
+        84,
+        0
+      ],
+      [
+        287,
+        84,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        84,
+        0
+      ],
+      [
+        287,
+        74,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        74,
+        0
+      ],
+      [
+        289,
+        74,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        289,
+        74,
+        0
+      ],
+      [
+        289,
+        73,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        289,
+        73,
+        0
+      ],
+      [
+        290,
+        73,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        290,
+        73,
+        0
+      ],
+      [
+        290,
+        69,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        290,
+        69,
+        0
+      ],
+      [
+        293,
+        69,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        293,
+        69,
+        0
+      ],
+      [
+        293,
+        61,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        293,
+        61,
+        0
+      ],
+      [
+        287,
+        61,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        61,
+        0
+      ],
+      [
+        287,
+        60,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        60,
+        0
+      ],
+      [
+        287,
+        55,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        60,
+        0
+      ],
+      [
+        287,
+        59,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        287,
+        59,
+        0
+      ],
+      [
+        288,
+        59,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        288,
+        59,
+        0
+      ],
+      [
+        288,
+        58,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        288,
+        58,
+        0
+      ],
+      [
+        293,
+        58,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        293,
+        58,
+        0
+      ],
+      [
+        293,
+        46,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        293,
+        46,
+        0
+      ],
+      [
+        256,
+        46,
+        0
+      ]
+    ],
+    [
+      "RS_DIR",
+      [
+        256,
+        46,
+        0
+      ],
+      [
+        256,
+        58,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        162,
+        143,
+        0
+      ],
+      [
+        162,
+        144,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        162,
+        144,
+        0
+      ],
+      [
+        163,
+        144,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        163,
+        144,
+        0
+      ],
+      [
+        163,
+        147,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        163,
+        147,
+        0
+      ],
+      [
+        168,
+        147,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        168,
+        147,
+        0
+      ],
+      [
+        168,
+        199,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        168,
+        199,
+        0
+      ],
+      [
+        118,
+        199,
+        0
+      ]
+    ],
+    [
+      "OUT0",
+      [
+        118,
+        199,
+        0
+      ],
+      [
+        118,
+        205,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        152,
+        153,
+        0
+      ],
+      [
+        139,
+        153,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        139,
+        153,
+        0
+      ],
+      [
+        139,
+        196,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        139,
+        196,
+        0
+      ],
+      [
+        115,
+        196,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        115,
+        196,
+        0
+      ],
+      [
+        115,
+        200,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        115,
+        200,
+        0
+      ],
+      [
+        113,
+        200,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        113,
+        200,
+        0
+      ],
+      [
+        113,
+        224,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        113,
+        224,
+        0
+      ],
+      [
+        118,
+        224,
+        0
+      ]
+    ],
+    [
+      "OUT1",
+      [
+        118,
+        224,
+        0
+      ],
+      [
+        118,
+        237,
+        0
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        152,
+        103,
+        3
+      ],
+      [
+        152,
+        99,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        152,
+        99,
+        3
+      ],
+      [
+        146,
+        99,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        146,
+        99,
+        3
+      ],
+      [
+        146,
+        96,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        146,
+        96,
+        3
+      ],
+      [
+        133,
+        96,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        133,
+        96,
+        3
+      ],
+      [
+        133,
+        80,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        133,
+        80,
+        3
+      ],
+      [
+        146,
+        80,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        146,
+        80,
+        3
+      ],
+      [
+        146,
+        77,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        146,
+        77,
+        3
+      ],
+      [
+        168,
+        77,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        168,
+        77,
+        3
+      ],
+      [
+        168,
+        80,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        168,
+        80,
+        3
+      ],
+      [
+        181,
+        80,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        181,
+        80,
+        3
+      ],
+      [
+        181,
+        139,
+        3
+      ]
+    ],
+    [
+      "SPI_MISO",
+      [
+        181,
+        139,
+        3
+      ],
+      [
+        366,
+        139,
+        3
+      ]
+    ],
+    [
+      "SPI_MOSI",
+      [
+        162,
+        93,
+        0
+      ],
+      [
+        255,
+        93,
+        0
+      ]
+    ],
+    [
+      "SPI_MOSI",
+      [
+        255,
+        93,
+        3
+      ],
+      [
+        255,
+        129,
+        3
+      ]
+    ],
+    [
+      "SPI_MOSI",
+      [
+        255,
+        129,
+        3
+      ],
+      [
+        366,
+        129,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        152,
+        93,
+        3
+      ],
+      [
+        152,
+        89,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        152,
+        89,
+        3
+      ],
+      [
+        146,
+        89,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        146,
+        89,
+        3
+      ],
+      [
+        146,
+        86,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        146,
+        86,
+        3
+      ],
+      [
+        139,
+        86,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        139,
+        86,
+        0
+      ],
+      [
+        140,
+        86,
+        0
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        140,
+        86,
+        0
+      ],
+      [
+        140,
+        71,
+        0
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        140,
+        71,
+        0
+      ],
+      [
+        260,
+        71,
+        0
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        260,
+        71,
+        0
+      ],
+      [
+        260,
+        70,
+        0
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        260,
+        70,
+        0
+      ],
+      [
+        272,
+        70,
+        0
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        272,
+        70,
+        3
+      ],
+      [
+        272,
+        113,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        272,
+        113,
+        3
+      ],
+      [
+        273,
+        113,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        273,
+        113,
+        3
+      ],
+      [
+        273,
+        119,
+        3
+      ]
+    ],
+    [
+      "SPI_SCK",
+      [
+        273,
+        119,
+        3
+      ],
+      [
+        366,
+        119,
+        3
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        162,
+        103,
+        0
+      ],
+      [
+        251,
+        103,
+        0
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        251,
+        103,
+        3
+      ],
+      [
+        251,
+        135,
+        3
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        251,
+        135,
+        0
+      ],
+      [
+        360,
+        135,
+        0
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        360,
+        135,
+        0
+      ],
+      [
+        360,
+        145,
+        0
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        360,
+        145,
+        0
+      ],
+      [
+        366,
+        145,
+        0
+      ]
+    ],
+    [
+      "SPI_CS0",
+      [
+        366,
+        145,
+        0
+      ],
+      [
+        366,
+        149,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        162,
+        83,
+        1
+      ],
+      [
+        162,
+        42,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        162,
+        42,
+        1
+      ],
+      [
+        144,
+        42,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        144,
+        42,
+        0
+      ],
+      [
+        137,
+        42,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        137,
+        42,
+        0
+      ],
+      [
+        125,
+        42,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        125,
+        42,
+        0
+      ],
+      [
+        125,
+        48,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        125,
+        48,
+        0
+      ],
+      [
+        100,
+        48,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        100,
+        48,
+        0
+      ],
+      [
+        100,
+        59,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        100,
+        59,
+        0
+      ],
+      [
+        97,
+        59,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        59,
+        0
+      ],
+      [
+        97,
+        64,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        64,
+        0
+      ],
+      [
+        81,
+        64,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        81,
+        64,
+        0
+      ],
+      [
+        81,
+        59,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        81,
+        59,
+        0
+      ],
+      [
+        76,
+        59,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        76,
+        59,
+        0
+      ],
+      [
+        76,
+        64,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        76,
+        64,
+        0
+      ],
+      [
+        44,
+        64,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        44,
+        64,
+        0
+      ],
+      [
+        44,
+        65,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        44,
+        65,
+        1
+      ],
+      [
+        44,
+        86,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        44,
+        86,
+        1
+      ],
+      [
+        50,
+        86,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        50,
+        86,
+        1
+      ],
+      [
+        50,
+        142,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        50,
+        142,
+        1
+      ],
+      [
+        44,
+        142,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        44,
+        142,
+        1
+      ],
+      [
+        44,
+        202,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        44,
+        202,
+        1
+      ],
+      [
+        41,
+        202,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        41,
+        202,
+        1
+      ],
+      [
+        41,
+        210,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        41,
+        210,
+        1
+      ],
+      [
+        39,
+        210,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        39,
+        210,
+        1
+      ],
+      [
+        39,
+        236,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        39,
+        236,
+        1
+      ],
+      [
+        45,
+        236,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        45,
+        236,
+        1
+      ],
+      [
+        45,
+        239,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        45,
+        239,
+        1
+      ],
+      [
+        96,
+        239,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        239,
+        1
+      ],
+      [
+        96,
+        240,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        240,
+        1
+      ],
+      [
+        98,
+        240,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        98,
+        240,
+        0
+      ],
+      [
+        97,
+        240,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        240,
+        0
+      ],
+      [
+        97,
+        243,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        243,
+        0
+      ],
+      [
+        96,
+        243,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        243,
+        0
+      ],
+      [
+        96,
+        246,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        246,
+        0
+      ],
+      [
+        96,
+        243,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        243,
+        0
+      ],
+      [
+        97,
+        243,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        243,
+        0
+      ],
+      [
+        97,
+        233,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        97,
+        233,
+        0
+      ],
+      [
+        96,
+        233,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        233,
+        0
+      ],
+      [
+        96,
+        214,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        96,
+        246,
+        0
+      ],
+      [
+        126,
+        246,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        246,
+        0
+      ],
+      [
+        126,
+        251,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        251,
+        0
+      ],
+      [
+        126,
+        242,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        242,
+        0
+      ],
+      [
+        131,
+        242,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        131,
+        242,
+        0
+      ],
+      [
+        131,
+        232,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        131,
+        232,
+        0
+      ],
+      [
+        126,
+        232,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        232,
+        0
+      ],
+      [
+        126,
+        219,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        219,
+        0
+      ],
+      [
+        132,
+        219,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        132,
+        219,
+        1
+      ],
+      [
+        132,
+        194,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        132,
+        194,
+        1
+      ],
+      [
+        141,
+        194,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        141,
+        194,
+        1
+      ],
+      [
+        141,
+        193,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        141,
+        193,
+        1
+      ],
+      [
+        152,
+        193,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        126,
+        251,
+        0
+      ],
+      [
+        200,
+        251,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        200,
+        251,
+        0
+      ],
+      [
+        200,
+        263,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        200,
+        263,
+        0
+      ],
+      [
+        215,
+        263,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        215,
+        263,
+        0
+      ],
+      [
+        215,
+        268,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        215,
+        268,
+        0
+      ],
+      [
+        241,
+        268,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        241,
+        268,
+        0
+      ],
+      [
+        241,
+        273,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        241,
+        273,
+        0
+      ],
+      [
+        254,
+        273,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        254,
+        273,
+        0
+      ],
+      [
+        254,
+        268,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        254,
+        268,
+        0
+      ],
+      [
+        284,
+        268,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        284,
+        268,
+        0
+      ],
+      [
+        284,
+        244,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        284,
+        244,
+        0
+      ],
+      [
+        286,
+        244,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        286,
+        244,
+        0
+      ],
+      [
+        286,
+        241,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        286,
+        241,
+        0
+      ],
+      [
+        289,
+        241,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        289,
+        241,
+        0
+      ],
+      [
+        289,
+        231,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        289,
+        231,
+        0
+      ],
+      [
+        284,
+        231,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        284,
+        231,
+        0
+      ],
+      [
+        284,
+        225,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        284,
+        244,
+        0
+      ],
+      [
+        290,
+        244,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        290,
+        244,
+        1
+      ],
+      [
+        293,
+        244,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        293,
+        244,
+        1
+      ],
+      [
+        293,
+        246,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        293,
+        246,
+        1
+      ],
+      [
+        366,
+        246,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        246,
+        1
+      ],
+      [
+        366,
+        242,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        242,
+        1
+      ],
+      [
+        372,
+        242,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        242,
+        1
+      ],
+      [
+        372,
+        181,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        181,
+        1
+      ],
+      [
+        366,
+        181,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        181,
+        1
+      ],
+      [
+        366,
+        177,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        177,
+        1
+      ],
+      [
+        372,
+        177,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        177,
+        1
+      ],
+      [
+        372,
+        109,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        109,
+        1
+      ],
+      [
+        366,
+        109,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        109,
+        1
+      ],
+      [
+        366,
+        105,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        105,
+        1
+      ],
+      [
+        372,
+        105,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        105,
+        1
+      ],
+      [
+        372,
+        74,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        372,
+        74,
+        1
+      ],
+      [
+        366,
+        74,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        74,
+        1
+      ],
+      [
+        366,
+        70,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        366,
+        70,
+        1
+      ],
+      [
+        360,
+        70,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        360,
+        70,
+        1
+      ],
+      [
+        360,
+        40,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        360,
+        40,
+        1
+      ],
+      [
+        343,
+        40,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        343,
+        40,
+        0
+      ],
+      [
+        337,
+        40,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        337,
+        40,
+        0
+      ],
+      [
+        332,
+        40,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        332,
+        40,
+        0
+      ],
+      [
+        332,
+        45,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        332,
+        45,
+        0
+      ],
+      [
+        317,
+        45,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        317,
+        45,
+        0
+      ],
+      [
+        317,
+        40,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        317,
+        40,
+        0
+      ],
+      [
+        317,
+        46,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        317,
+        46,
+        1
+      ],
+      [
+        317,
+        48,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        317,
+        48,
+        1
+      ],
+      [
+        316,
+        48,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        316,
+        48,
+        1
+      ],
+      [
+        316,
+        65,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        316,
+        65,
+        0
+      ],
+      [
+        309,
+        65,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        309,
+        65,
+        0
+      ],
+      [
+        316,
+        65,
+        0
+      ]
+    ],
+    [
+      "GND",
+      [
+        316,
+        65,
+        1
+      ],
+      [
+        316,
+        64,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        316,
+        64,
+        1
+      ],
+      [
+        287,
+        64,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        287,
+        64,
+        1
+      ],
+      [
+        287,
+        58,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        287,
+        58,
+        1
+      ],
+      [
+        270,
+        58,
+        1
+      ]
+    ],
+    [
+      "GND",
+      [
+        270,
+        58,
+        0
+      ],
+      [
+        264,
+        58,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        152,
+        83,
+        2
+      ],
+      [
+        143,
+        83,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        143,
+        83,
+        2
+      ],
+      [
+        143,
+        82,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        143,
+        82,
+        2
+      ],
+      [
+        139,
+        82,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        139,
+        82,
+        2
+      ],
+      [
+        139,
+        40,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        139,
+        40,
+        2
+      ],
+      [
+        126,
+        40,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        126,
+        40,
+        2
+      ],
+      [
+        126,
+        38,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        126,
+        38,
+        0
+      ],
+      [
+        119,
+        38,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        119,
+        38,
+        0
+      ],
+      [
+        119,
+        42,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        119,
+        42,
+        0
+      ],
+      [
+        92,
+        42,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        92,
+        42,
+        0
+      ],
+      [
+        92,
+        59,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        92,
+        59,
+        0
+      ],
+      [
+        86,
+        59,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        86,
+        59,
+        0
+      ],
+      [
+        86,
+        54,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        86,
+        54,
+        0
+      ],
+      [
+        71,
+        54,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        71,
+        54,
+        0
+      ],
+      [
+        71,
+        59,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        71,
+        59,
+        0
+      ],
+      [
+        44,
+        59,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        44,
+        59,
+        0
+      ],
+      [
+        44,
+        55,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        152,
+        83,
+        2
+      ],
+      [
+        156,
+        83,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        156,
+        83,
+        2
+      ],
+      [
+        156,
+        77,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        156,
+        77,
+        2
+      ],
+      [
+        168,
+        77,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        168,
+        77,
+        2
+      ],
+      [
+        168,
+        189,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        168,
+        189,
+        2
+      ],
+      [
+        162,
+        189,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        162,
+        189,
+        2
+      ],
+      [
+        162,
+        193,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        162,
+        193,
+        2
+      ],
+      [
+        323,
+        193,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        323,
+        193,
+        2
+      ],
+      [
+        323,
+        198,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        323,
+        198,
+        2
+      ],
+      [
+        327,
+        198,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        327,
+        198,
+        2
+      ],
+      [
+        327,
+        192,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        327,
+        192,
+        2
+      ],
+      [
+        360,
+        192,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        360,
+        192,
+        2
+      ],
+      [
+        360,
+        175,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        360,
+        175,
+        2
+      ],
+      [
+        366,
+        175,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        366,
+        175,
+        2
+      ],
+      [
+        366,
+        171,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        366,
+        171,
+        2
+      ],
+      [
+        366,
+        158,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        366,
+        158,
+        2
+      ],
+      [
+        367,
+        158,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        367,
+        158,
+        2
+      ],
+      [
+        367,
+        155,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        367,
+        155,
+        2
+      ],
+      [
+        372,
+        155,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        372,
+        155,
+        2
+      ],
+      [
+        372,
+        103,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        372,
+        103,
+        2
+      ],
+      [
+        366,
+        103,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        366,
+        103,
+        2
+      ],
+      [
+        366,
+        99,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        366,
+        99,
+        2
+      ],
+      [
+        360,
+        99,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        360,
+        99,
+        2
+      ],
+      [
+        360,
+        49,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        360,
+        49,
+        2
+      ],
+      [
+        327,
+        49,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        327,
+        49,
+        2
+      ],
+      [
+        327,
+        34,
+        2
+      ]
+    ],
+    [
+      "3V3",
+      [
+        327,
+        34,
+        0
+      ],
+      [
+        327,
+        40,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        327,
+        40,
+        0
+      ],
+      [
+        322,
+        40,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        322,
+        40,
+        0
+      ],
+      [
+        322,
+        35,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        322,
+        35,
+        0
+      ],
+      [
+        309,
+        35,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        309,
+        35,
+        0
+      ],
+      [
+        309,
+        40,
+        0
+      ]
+    ],
+    [
+      "3V3",
+      [
+        309,
+        40,
+        0
+      ],
+      [
+        309,
+        50,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        162,
+        133,
+        0
+      ],
+      [
+        247,
+        133,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        247,
+        133,
+        0
+      ],
+      [
+        247,
+        139,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        247,
+        139,
+        0
+      ],
+      [
+        260,
+        139,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        260,
+        139,
+        0
+      ],
+      [
+        260,
+        221,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        260,
+        221,
+        0
+      ],
+      [
+        279,
+        221,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        279,
+        221,
+        0
+      ],
+      [
+        279,
+        220,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        279,
+        220,
+        0
+      ],
+      [
+        284,
+        220,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        284,
+        220,
+        0
+      ],
+      [
+        284,
+        217,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        284,
+        217,
+        0
+      ],
+      [
+        300,
+        217,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        300,
+        217,
+        0
+      ],
+      [
+        300,
+        216,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        300,
+        216,
+        0
+      ],
+      [
+        313,
+        216,
+        0
+      ]
+    ],
+    [
+      "ADC0",
+      [
+        313,
+        216,
+        0
+      ],
+      [
+        313,
+        221,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        152,
+        143,
+        3
+      ],
+      [
+        152,
+        147,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        152,
+        147,
+        3
+      ],
+      [
+        146,
+        147,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        146,
+        147,
+        3
+      ],
+      [
+        146,
+        150,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        146,
+        150,
+        3
+      ],
+      [
+        133,
+        150,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        133,
+        150,
+        3
+      ],
+      [
+        133,
+        215,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        133,
+        215,
+        3
+      ],
+      [
+        136,
+        215,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        136,
+        215,
+        3
+      ],
+      [
+        136,
+        240,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        136,
+        240,
+        0
+      ],
+      [
+        260,
+        240,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        260,
+        240,
+        0
+      ],
+      [
+        279,
+        240,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        279,
+        240,
+        0
+      ],
+      [
+        279,
+        239,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        279,
+        239,
+        0
+      ],
+      [
+        283,
+        239,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        283,
+        239,
+        0
+      ],
+      [
+        283,
+        238,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        283,
+        238,
+        0
+      ],
+      [
+        284,
+        238,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        284,
+        238,
+        0
+      ],
+      [
+        284,
+        236,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        284,
+        236,
+        0
+      ],
+      [
+        278,
+        236,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        278,
+        236,
+        3
+      ],
+      [
+        293,
+        236,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        293,
+        236,
+        3
+      ],
+      [
+        293,
+        234,
+        3
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        293,
+        234,
+        0
+      ],
+      [
+        300,
+        234,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        300,
+        234,
+        0
+      ],
+      [
+        300,
+        233,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        300,
+        233,
+        0
+      ],
+      [
+        313,
+        233,
+        0
+      ]
+    ],
+    [
+      "ADC1",
+      [
+        313,
+        233,
+        0
+      ],
+      [
+        313,
+        238,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        152,
+        133,
+        3
+      ],
+      [
+        152,
+        137,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        152,
+        137,
+        3
+      ],
+      [
+        146,
+        137,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        146,
+        137,
+        3
+      ],
+      [
+        146,
+        140,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        146,
+        140,
+        3
+      ],
+      [
+        133,
+        140,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        133,
+        140,
+        3
+      ],
+      [
+        133,
+        147,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        133,
+        147,
+        3
+      ],
+      [
+        130,
+        147,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        130,
+        147,
+        3
+      ],
+      [
+        130,
+        169,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        130,
+        169,
+        3
+      ],
+      [
+        129,
+        169,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        129,
+        169,
+        3
+      ],
+      [
+        129,
+        211,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        129,
+        211,
+        3
+      ],
+      [
+        128,
+        211,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        128,
+        211,
+        0
+      ],
+      [
+        256,
+        211,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        256,
+        211,
+        3
+      ],
+      [
+        256,
+        197,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        256,
+        197,
+        3
+      ],
+      [
+        264,
+        197,
+        3
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        264,
+        197,
+        0
+      ],
+      [
+        269,
+        197,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        269,
+        197,
+        0
+      ],
+      [
+        269,
+        190,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        269,
+        190,
+        0
+      ],
+      [
+        301,
+        190,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        301,
+        190,
+        0
+      ],
+      [
+        301,
+        188,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        301,
+        188,
+        0
+      ],
+      [
+        304,
+        188,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        304,
+        188,
+        0
+      ],
+      [
+        304,
+        193,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        304,
+        193,
+        0
+      ],
+      [
+        317,
+        193,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        317,
+        193,
+        0
+      ],
+      [
+        317,
+        192,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        317,
+        192,
+        0
+      ],
+      [
+        360,
+        192,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        360,
+        192,
+        0
+      ],
+      [
+        360,
+        197,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        360,
+        197,
+        0
+      ],
+      [
+        366,
+        197,
+        0
+      ]
+    ],
+    [
+      "I2C_SCL",
+      [
+        366,
+        197,
+        0
+      ],
+      [
+        366,
+        201,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        162,
+        123,
+        0
+      ],
+      [
+        224,
+        123,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        224,
+        123,
+        0
+      ],
+      [
+        224,
+        125,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        224,
+        125,
+        0
+      ],
+      [
+        268,
+        125,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        268,
+        125,
+        1
+      ],
+      [
+        268,
+        143,
+        1
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        268,
+        143,
+        0
+      ],
+      [
+        269,
+        143,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        269,
+        143,
+        0
+      ],
+      [
+        269,
+        177,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        269,
+        177,
+        0
+      ],
+      [
+        301,
+        177,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        301,
+        177,
+        0
+      ],
+      [
+        301,
+        176,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        301,
+        176,
+        0
+      ],
+      [
+        304,
+        176,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        304,
+        176,
+        0
+      ],
+      [
+        304,
+        181,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        304,
+        181,
+        0
+      ],
+      [
+        360,
+        181,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        360,
+        181,
+        0
+      ],
+      [
+        360,
+        187,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        360,
+        187,
+        0
+      ],
+      [
+        366,
+        187,
+        0
+      ]
+    ],
+    [
+      "I2C_SDA",
+      [
+        366,
+        187,
+        0
+      ],
+      [
+        366,
+        191,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        88,
+        214,
+        0
+      ],
+      [
+        91,
+        214,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        91,
+        214,
+        0
+      ],
+      [
+        91,
+        219,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        91,
+        219,
+        0
+      ],
+      [
+        92,
+        219,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        92,
+        219,
+        0
+      ],
+      [
+        92,
+        220,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        92,
+        220,
+        3
+      ],
+      [
+        92,
+        219,
+        3
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        92,
+        219,
+        3
+      ],
+      [
+        117,
+        219,
+        3
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        117,
+        219,
+        3
+      ],
+      [
+        117,
+        213,
+        3
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        117,
+        213,
+        0
+      ],
+      [
+        118,
+        213,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        118,
+        213,
+        0
+      ],
+      [
+        118,
+        219,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        118,
+        219,
+        0
+      ],
+      [
+        121,
+        219,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        121,
+        219,
+        0
+      ],
+      [
+        121,
+        214,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        121,
+        214,
+        0
+      ],
+      [
+        124,
+        214,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        124,
+        214,
+        0
+      ],
+      [
+        124,
+        207,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        124,
+        207,
+        0
+      ],
+      [
+        126,
+        207,
+        0
+      ]
+    ],
+    [
+      "GATE0",
+      [
+        126,
+        207,
+        0
+      ],
+      [
+        126,
+        205,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        88,
+        246,
+        0
+      ],
+      [
+        91,
+        246,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        91,
+        246,
+        0
+      ],
+      [
+        91,
+        251,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        91,
+        251,
+        0
+      ],
+      [
+        118,
+        251,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        118,
+        251,
+        0
+      ],
+      [
+        112,
+        251,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        112,
+        251,
+        3
+      ],
+      [
+        112,
+        242,
+        3
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        112,
+        242,
+        0
+      ],
+      [
+        123,
+        242,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        123,
+        242,
+        0
+      ],
+      [
+        123,
+        239,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        123,
+        239,
+        0
+      ],
+      [
+        126,
+        239,
+        0
+      ]
+    ],
+    [
+      "GATE1",
+      [
+        126,
+        239,
+        0
+      ],
+      [
+        126,
+        237,
+        0
+      ]
+    ],
+    [
+      "I2C_PULLUP",
+      [
+        333,
+        198,
+        3
+      ],
+      [
+        333,
+        188,
+        3
+      ]
+    ],
+    [
+      "I2C_PULLUP",
+      [
+        333,
+        188,
+        0
+      ],
+      [
+        309,
+        188,
+        0
+      ]
+    ],
+    [
+      "I2C_PULLUP",
+      [
+        309,
+        188,
+        0
+      ],
+      [
+        315,
+        188,
+        0
+      ]
+    ],
+    [
+      "I2C_PULLUP",
+      [
+        315,
+        188,
+        3
+      ],
+      [
+        315,
+        176,
+        3
+      ]
+    ],
+    [
+      "I2C_PULLUP",
+      [
+        315,
+        176,
+        0
+      ],
+      [
+        309,
+        176,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        162,
+        163,
+        3
+      ],
+      [
+        162,
+        167,
+        3
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        162,
+        167,
+        3
+      ],
+      [
+        168,
+        167,
+        3
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        168,
+        167,
+        3
+      ],
+      [
+        168,
+        170,
+        3
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        168,
+        170,
+        3
+      ],
+      [
+        172,
+        170,
+        3
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        172,
+        170,
+        0
+      ],
+      [
+        171,
+        170,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        171,
+        170,
+        0
+      ],
+      [
+        171,
+        202,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        171,
+        202,
+        0
+      ],
+      [
+        137,
+        202,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        137,
+        202,
+        0
+      ],
+      [
+        137,
+        203,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        137,
+        203,
+        2
+      ],
+      [
+        125,
+        203,
+        2
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        125,
+        203,
+        2
+      ],
+      [
+        125,
+        192,
+        2
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        125,
+        192,
+        0
+      ],
+      [
+        87,
+        192,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        87,
+        192,
+        0
+      ],
+      [
+        87,
+        158,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        87,
+        158,
+        0
+      ],
+      [
+        50,
+        158,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        50,
+        158,
+        0
+      ],
+      [
+        50,
+        136,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        50,
+        136,
+        0
+      ],
+      [
+        44,
+        136,
+        0
+      ]
+    ],
+    [
+      "RESET_N",
+      [
+        44,
+        136,
+        0
+      ],
+      [
+        44,
+        132,
+        0
+      ]
+    ],
+    [
+      "ADC0_RAW",
+      [
+        366,
+        226,
+        0
+      ],
+      [
+        305,
+        226,
+        0
+      ]
+    ],
+    [
+      "ADC0_RAW",
+      [
+        305,
+        226,
+        0
+      ],
+      [
+        305,
+        221,
+        0
+      ]
+    ],
+    [
+      "ADC1_RAW",
+      [
+        366,
+        236,
+        0
+      ],
+      [
+        318,
+        236,
+        0
+      ]
+    ],
+    [
+      "ADC1_RAW",
+      [
+        318,
+        236,
+        0
+      ],
+      [
+        318,
+        243,
+        0
+      ]
+    ],
+    [
+      "ADC1_RAW",
+      [
+        318,
+        243,
+        0
+      ],
+      [
+        305,
+        243,
+        0
+      ]
+    ],
+    [
+      "ADC1_RAW",
+      [
+        305,
+        243,
+        0
+      ],
+      [
+        305,
+        238,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        152,
+        173,
+        2
+      ],
+      [
+        125,
+        173,
+        2
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        125,
+        173,
+        0
+      ],
+      [
+        93,
+        173,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        93,
+        173,
+        0
+      ],
+      [
+        93,
+        152,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        93,
+        152,
+        0
+      ],
+      [
+        53,
+        152,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        53,
+        152,
+        0
+      ],
+      [
+        53,
+        133,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        53,
+        133,
+        0
+      ],
+      [
+        50,
+        133,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        50,
+        133,
+        0
+      ],
+      [
+        50,
+        96,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        50,
+        96,
+        0
+      ],
+      [
+        44,
+        96,
+        0
+      ]
+    ],
+    [
+      "GPIO0",
+      [
+        44,
+        96,
+        0
+      ],
+      [
+        44,
+        92,
+        0
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        162,
+        173,
+        3
+      ],
+      [
+        162,
+        174,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        162,
+        174,
+        3
+      ],
+      [
+        176,
+        174,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        176,
+        174,
+        3
+      ],
+      [
+        176,
+        166,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        176,
+        166,
+        3
+      ],
+      [
+        181,
+        166,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        181,
+        166,
+        3
+      ],
+      [
+        181,
+        143,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        181,
+        143,
+        3
+      ],
+      [
+        185,
+        143,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        185,
+        143,
+        1
+      ],
+      [
+        185,
+        129,
+        1
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        185,
+        129,
+        3
+      ],
+      [
+        185,
+        102,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        185,
+        102,
+        3
+      ],
+      [
+        184,
+        102,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        184,
+        102,
+        3
+      ],
+      [
+        184,
+        77,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        184,
+        77,
+        3
+      ],
+      [
+        171,
+        77,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        171,
+        77,
+        3
+      ],
+      [
+        171,
+        74,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        171,
+        74,
+        3
+      ],
+      [
+        143,
+        74,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        143,
+        74,
+        3
+      ],
+      [
+        143,
+        77,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        143,
+        77,
+        3
+      ],
+      [
+        130,
+        77,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        130,
+        77,
+        3
+      ],
+      [
+        130,
+        102,
+        3
+      ]
+    ],
+    [
+      "GPIO1",
+      [
+        130,
+        102,
+        3
+      ],
+      [
+        44,
+        102,
+        3
+      ]
+    ],
+    [
+      "GPIO2",
+      [
+        152,
+        183,
+        2
+      ],
+      [
+        125,
+        183,
+        2
+      ]
+    ],
+    [
+      "GPIO2",
+      [
+        125,
+        183,
+        3
+      ],
+      [
+        125,
+        177,
+        3
+      ]
+    ],
+    [
+      "GPIO2",
+      [
+        125,
+        177,
+        3
+      ],
+      [
+        121,
+        177,
+        3
+      ]
+    ],
+    [
+      "GPIO2",
+      [
+        121,
+        177,
+        3
+      ],
+      [
+        121,
+        112,
+        3
+      ]
+    ],
+    [
+      "GPIO2",
+      [
+        121,
+        112,
+        3
+      ],
+      [
+        44,
+        112,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        162,
+        183,
+        3
+      ],
+      [
+        162,
+        187,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        162,
+        187,
+        3
+      ],
+      [
+        168,
+        187,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        168,
+        187,
+        3
+      ],
+      [
+        168,
+        190,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        168,
+        190,
+        3
+      ],
+      [
+        181,
+        190,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        181,
+        190,
+        3
+      ],
+      [
+        181,
+        196,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        181,
+        196,
+        3
+      ],
+      [
+        168,
+        196,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        168,
+        196,
+        3
+      ],
+      [
+        168,
+        199,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        168,
+        199,
+        3
+      ],
+      [
+        142,
+        199,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        142,
+        199,
+        3
+      ],
+      [
+        142,
+        207,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        142,
+        207,
+        2
+      ],
+      [
+        109,
+        207,
+        2
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        109,
+        207,
+        3
+      ],
+      [
+        109,
+        122,
+        3
+      ]
+    ],
+    [
+      "GPIO3",
+      [
+        109,
+        122,
+        3
+      ],
+      [
+        44,
+        122,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        162,
+        153,
+        3
+      ],
+      [
+        162,
+        157,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        162,
+        157,
+        3
+      ],
+      [
+        168,
+        157,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        168,
+        157,
+        3
+      ],
+      [
+        168,
+        160,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        168,
+        160,
+        3
+      ],
+      [
+        172,
+        160,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        172,
+        160,
+        0
+      ],
+      [
+        207,
+        160,
+        0
+      ]
+    ],
+    [
+      "LED0",
+      [
+        207,
+        160,
+        3
+      ],
+      [
+        207,
+        244,
+        3
+      ]
+    ],
+    [
+      "LED0",
+      [
+        207,
+        244,
+        0
+      ],
+      [
+        207,
+        250,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        152,
+        163,
+        0
+      ],
+      [
+        152,
+        164,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        152,
+        164,
+        0
+      ],
+      [
+        151,
+        164,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        151,
+        164,
+        0
+      ],
+      [
+        151,
+        167,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        151,
+        167,
+        0
+      ],
+      [
+        146,
+        167,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        146,
+        167,
+        0
+      ],
+      [
+        146,
+        189,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        146,
+        189,
+        0
+      ],
+      [
+        145,
+        189,
+        0
+      ]
+    ],
+    [
+      "LED1",
+      [
+        145,
+        189,
+        2
+      ],
+      [
+        146,
+        189,
+        2
+      ]
+    ],
+    [
+      "LED1",
+      [
+        146,
+        189,
+        2
+      ],
+      [
+        146,
+        199,
+        2
+      ]
+    ],
+    [
+      "LED1",
+      [
+        146,
+        199,
+        2
+      ],
+      [
+        147,
+        199,
+        2
+      ]
+    ],
+    [
+      "LED1",
+      [
+        147,
+        199,
+        2
+      ],
+      [
+        147,
+        206,
+        2
+      ]
+    ],
+    [
+      "LED1",
+      [
+        147,
+        206,
+        3
+      ],
+      [
+        147,
+        250,
+        3
+      ]
+    ],
+    [
+      "LED1",
+      [
+        147,
+        250,
+        3
+      ],
+      [
+        221,
+        250,
+        3
+      ]
+    ],
+    [
+      "LED1",
+      [
+        221,
+        250,
+        0
+      ],
+      [
+        246,
+        250,
+        0
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        215,
+        250,
+        0
+      ],
+      [
+        212,
+        250,
+        0
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        212,
+        250,
+        0
+      ],
+      [
+        212,
+        255,
+        0
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        212,
+        255,
+        0
+      ],
+      [
+        207,
+        255,
+        0
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        207,
+        255,
+        0
+      ],
+      [
+        207,
+        256,
+        0
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        207,
+        256,
+        3
+      ],
+      [
+        207,
+        274,
+        3
+      ]
+    ],
+    [
+      "LED_AN0",
+      [
+        207,
+        274,
+        0
+      ],
+      [
+        207,
+        268,
+        0
+      ]
+    ],
+    [
+      "LED_AN1",
+      [
+        254,
+        250,
+        0
+      ],
+      [
+        251,
+        250,
+        0
+      ]
+    ],
+    [
+      "LED_AN1",
+      [
+        251,
+        250,
+        0
+      ],
+      [
+        251,
+        255,
+        0
+      ]
+    ],
+    [
+      "LED_AN1",
+      [
+        251,
+        255,
+        0
+      ],
+      [
+        246,
+        255,
+        0
+      ]
+    ],
+    [
+      "LED_AN1",
+      [
+        246,
+        255,
+        0
+      ],
+      [
+        246,
+        268,
+        0
+      ]
+    ],
+    [
+      "LOAD0",
+      [
+        45,
+        216,
+        0
+      ],
+      [
+        83,
+        216,
+        0
+      ]
+    ],
+    [
+      "LOAD0",
+      [
+        83,
+        216,
+        0
+      ],
+      [
+        83,
+        209,
+        0
+      ]
+    ],
+    [
+      "LOAD0",
+      [
+        83,
+        209,
+        0
+      ],
+      [
+        92,
+        209,
+        0
+      ]
+    ],
+    [
+      "LOAD0",
+      [
+        92,
+        209,
+        0
+      ],
+      [
+        92,
+        206,
+        0
+      ]
+    ],
+    [
+      "LOAD1",
+      [
+        45,
+        226,
+        0
+      ],
+      [
+        92,
+        226,
+        0
+      ]
+    ],
+    [
+      "LOAD1",
+      [
+        92,
+        226,
+        0
+      ],
+      [
+        92,
+        238,
+        0
+      ]
+    ],
+    [
+      "TERM_SW",
+      [
+        327,
+        85,
+        3
+      ],
+      [
+        327,
+        70,
+        3
+      ]
+    ],
+    [
+      "TERM_SW",
+      [
+        327,
+        70,
+        0
+      ],
+      [
+        336,
+        70,
+        0
+      ]
+    ]
+  ],
+  "vias": [
+    [
+      "3V3",
+      126,
+      38
+    ],
+    [
+      "3V3",
+      327,
+      34
+    ],
+    [
+      "ADC1",
+      136,
+      240
+    ],
+    [
+      "ADC1",
+      278,
+      236
+    ],
+    [
+      "ADC1",
+      293,
+      234
+    ],
+    [
+      "GATE0",
+      92,
+      220
+    ],
+    [
+      "GATE0",
+      117,
+      213
+    ],
+    [
+      "GATE1",
+      112,
+      242
+    ],
+    [
+      "GATE1",
+      112,
+      251
+    ],
+    [
+      "GND",
+      98,
+      240
+    ],
+    [
+      "GND",
+      132,
+      219
+    ],
+    [
+      "GND",
+      144,
+      42
+    ],
+    [
+      "GND",
+      270,
+      58
+    ],
+    [
+      "GND",
+      290,
+      244
+    ],
+    [
+      "GND",
+      316,
+      65
+    ],
+    [
+      "GND",
+      317,
+      46
+    ],
+    [
+      "GND",
+      343,
+      40
+    ],
+    [
+      "GPIO0",
+      125,
+      173
+    ],
+    [
+      "GPIO1",
+      185,
+      129
+    ],
+    [
+      "GPIO1",
+      185,
+      143
+    ],
+    [
+      "GPIO2",
+      125,
+      183
+    ],
+    [
+      "GPIO3",
+      109,
+      207
+    ],
+    [
+      "GPIO3",
+      142,
+      207
+    ],
+    [
+      "I2C_PULLUP",
+      315,
+      176
+    ],
+    [
+      "I2C_PULLUP",
+      315,
+      188
+    ],
+    [
+      "I2C_PULLUP",
+      333,
+      188
+    ],
+    [
+      "I2C_SCL",
+      128,
+      211
+    ],
+    [
+      "I2C_SCL",
+      256,
+      211
+    ],
+    [
+      "I2C_SCL",
+      264,
+      197
+    ],
+    [
+      "I2C_SDA",
+      268,
+      125
+    ],
+    [
+      "I2C_SDA",
+      268,
+      143
+    ],
+    [
+      "LED0",
+      172,
+      160
+    ],
+    [
+      "LED0",
+      207,
+      160
+    ],
+    [
+      "LED0",
+      207,
+      244
+    ],
+    [
+      "LED1",
+      145,
+      189
+    ],
+    [
+      "LED1",
+      147,
+      206
+    ],
+    [
+      "LED1",
+      221,
+      250
+    ],
+    [
+      "LED_AN0",
+      207,
+      256
+    ],
+    [
+      "LED_AN0",
+      207,
+      274
+    ],
+    [
+      "RESET_N",
+      125,
+      192
+    ],
+    [
+      "RESET_N",
+      137,
+      203
+    ],
+    [
+      "RESET_N",
+      172,
+      170
+    ],
+    [
+      "RS_DIR",
+      264,
+      74
+    ],
+    [
+      "RS_DIR",
+      266,
+      88
+    ],
+    [
+      "SPI_CS0",
+      251,
+      103
+    ],
+    [
+      "SPI_CS0",
+      251,
+      135
+    ],
+    [
+      "SPI_MOSI",
+      255,
+      93
+    ],
+    [
+      "SPI_SCK",
+      139,
+      86
+    ],
+    [
+      "SPI_SCK",
+      272,
+      70
+    ],
+    [
+      "TERM_SW",
+      327,
+      70
+    ],
+    [
+      "UART_TX",
+      277,
+      74
+    ],
+    [
+      "UART_TX",
+      285,
+      70
+    ]
+  ]
+}
