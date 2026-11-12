@@ -1,0 +1,8 @@
+  (footprint "TestLand_1p5mm" (version 20221018) (generator meridian_export) (layer "F.Cu")
+    (attr smd exclude_from_bom exclude_from_pos_files)
+    (fp_text reference "REF**" (at 0 -1.750) (layer "F.SilkS") (effects (font (size 0.85 0.85) (thickness 0.12))) (tstamp e7fdae46-89a1-565e-b58a-202329d4db15))
+    (fp_text value "TestLand_1p5mm" (at 0 0) (layer "F.Fab") hide (effects (font (size 0.7 0.7) (thickness 0.12))) (tstamp 0302fb5c-4790-5184-8cdb-349454826102))
+    (fp_rect (start -1.250 -1.250) (end 1.250 1.250) (stroke (width 0.10) (type default)) (fill none) (layer "F.Fab") (tstamp 7eb3c48e-cdd8-5cc7-9229-28df581e67fe))
+    (fp_rect (start -1.400 -1.400) (end 1.400 1.400) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp c6074d52-9351-5885-9ee8-58f38faba03c))
+    (pad "1" smd rect (at 0.0000 0.0000) (size 1.5 1.5) (layers "F.Cu" "F.Mask")  (tstamp e9d459c6-f833-5f55-947b-6dcb8dff15b0))
+  )

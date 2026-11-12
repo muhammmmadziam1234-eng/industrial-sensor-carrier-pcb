@@ -1,0 +1,20 @@
+{
+  "GND": {
+    "layer": 2,
+    "model_clearance_mm": 0.35,
+    "copper_coverage_percent": 92.59,
+    "plated_connections": 21,
+    "islands": 1,
+    "continuous_core_inset_mm": 0.15,
+    "trimmed_narrow_copper_mm2": 18.586
+  },
+  "3V3": {
+    "layer": 3,
+    "model_clearance_mm": 0.35,
+    "copper_coverage_percent": 92.15,
+    "plated_connections": 12,
+    "islands": 1,
+    "continuous_core_inset_mm": 0.15,
+    "trimmed_narrow_copper_mm2": 22.569
+  }
+}

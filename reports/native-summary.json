@@ -1,0 +1,15 @@
+{
+  "schematic_pad_count": 124,
+  "source_pad_count": 124,
+  "differing_pad_assignments": 0,
+  "erc": {
+    "errors": 0,
+    "warnings": 0,
+    "items": 0
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": 0,
+    "items": 0
+  }
+}

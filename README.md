@@ -1,36 +1,36 @@
-# Meridian Industrial Sensor Carrier
+# Meridian Industrial Sensor Carrier · Revision B
 
-A four-layer PCB layout for a 3.3 V controller that needs field interfaces, analog sensing and bench test access. The project includes the editable AutoCAD DXF, a KiCad board, the source netlist, the routing code and a vector geometry verification report.
+Meridian is a four-layer PCB design for integrating a 3.3 V controller with RS-485, SPI, I²C, analog sensing, and low-side loads. Revision B adds a hardware supply selector, wider power routes, dedicated inner copper planes, and an editable schematic and layout tied to the same pin map.
 
-![Four copper layers of the Meridian I/O carrier](media/four-layer-inspection.png)
+![Revision B inspection drawing, all four copper layers](media/four-layer-inspection.png)
 
-## Inspect the board
+| Deliverable | Contents |
+| --- | --- |
+| [KiCad project](cad/meridian-carrier.kicad_pro) | Native schematic, PCB, project symbol and footprint libraries, and explicit routing constraints. |
+| [Schematic PDF](reports/meridian-schematic.pdf) | Review drawing organized by electrical function. |
+| [AutoCAD DXF](cad/meridian-carrier.dxf) | Millimetre model with board outline, mounting, drills, individual tracks, and separately editable inner plane models. |
+| [Assembly and purchasing](cad/bill-of-materials.csv) | Reference designators, package details, candidate manufacturer part numbers, and source links. |
+| [Connector and jumper map](design-review.md) | Controller pinout, field connectors, power selection, and test points. |
+| [Engineering basis](engineering-basis.md) | Component and fabrication references, electrical decisions, and the integration envelope. |
+| [Fabrication review](fab/README.md) | Stack, drill, copper, and manufacturing checks for the prototype package. |
+| [Bring-up plan](bring-up.md) | Bench steps and evidence to record on assembled hardware. |
 
-- [AutoCAD DXF](cad/meridian-carrier.dxf) contains the copper tracks, pads, drill geometry, component outlines and dimensions on named layers. Open it in AutoCAD at 1:1 in millimetres. Model space starts at the lower left corner.
-- [KiCad PCB](cad/meridian-carrier.kicad_pcb) adds electrical net assignments to the same copper and pad geometry. Its origin is at the upper left corner.
-- [Interface and assembly notes](design-review.md) document the controller pinout, default states and bench review steps.
-- [BOM](cad/bill-of-materials.csv) and [pad net map](cad/pad-net-map.csv) identify the placement and connectivity.
-- [Geometry report](verification.json) and [export checks](cad/export-checks.json) capture what was checked.
+The board measures 101.60 × 76.20 mm and uses four 3.20 mm mounting holes. L2 provides a ground plane and L3 provides the 3.3 V plane. The two outer layers carry signal and power tracks. JP3 selects the controller supply or a regulated auxiliary input with a single shunt.
 
-## Design decisions
+## Verify and regenerate
 
-The controller connector uses an explicit project pinout. The RS-485 transceiver shares one direction signal between driver enable and receiver enable, with a pull-down that starts it in receive mode. A removable link controls the 120 Ω termination. The I²C pull-ups can be disconnected to use bus pull-ups already on another device. Each analog input has a 1 kΩ / 100 nF low-pass network. Two 3.3 V controlled MOSFET channels provide low-side outputs for a bench resistive load. Exposed test pads cover power, reset, the bus and both ADC inputs.
-
-The board routes signals primarily on the outside layers. Inner layer 1 favors ground routes and inner layer 2 favors 3.3 V routes. The router permits constrained signal crossings on the inner layers. It uses a 0.254 mm grid, minimizes via changes and reserves keepouts around pads and mounting holes. All geometry is generated from [the netlist and placement source](board.py).
-
-## Reproduce and verify
+Install the Python dependencies in [requirements.txt](requirements.txt). Run the generators from the project root in this order.
 
 ~~~sh
-python -m pip install -r requirements.txt
+python schematic.py
 python route.py
 python verify.py
 python check_verifier.py
+python planes.py
 python export_cad.py
 python render_preview.py
 ~~~
 
-The verifier constructs actual vector copper shapes and independently checks inter-net clearance, hole clearance, board-edge clearance, mounting keepouts and electrical continuity. Two regression probes confirm it rejects an injected short and an open net. A separate reader reopens each export and checks its structure. The drawing uses the [AutoCAD DXF entity model](https://help.autodesk.com/cloudhelp/2018/ENU/AutoCAD-DXF/files/GUID-7D07C886-FD1D-4A0C-A7AB-B4D21F18E484.htm).
+[Geometry evidence](verification.json) covers the routed copper, hole spacing, board edge, and connectivity. [Plane evidence](plane-verification.json) covers continuous inner pours and their isolation envelopes. [Export evidence](cad/export-checks.json) records the DXF audit and KiCad geometry readback. [KiCad 10.0.8 results](reports/native-summary.json) record zero electrical or layout findings, zero unconnected items, zero schematic parity issues, and agreement on all 124 electrical pad assignments. The [fabrication export check](reports/fabrication-summary.json) confirms nine Gerber layers, 117 plated and four nonplated drill hits, and 23 top-side surface-mount placements. See [the fabrication folder](fab/README.md) for export instructions and the file manifest.
 
-This is an unbuilt portfolio design. Before fabrication it needs schematic review, footprint and connector confirmation, signal integrity and load validation, and a fabricator-specific DRC. The inner layers contain routed copper. The design does not model solid reference planes or controlled impedance. Use the exposed pins only with the documented 3.3 V bench setup.
-
-Device references: [TI THVD1450](https://www.ti.com/product/THVD1450) and [AOS AO3400A](https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a).
+This handoff is for engineering and prototype review. Fabrication approval requires final part-to-footprint confirmation and review of the chosen fab stack. Hardware validation uses the documented bring-up plan.

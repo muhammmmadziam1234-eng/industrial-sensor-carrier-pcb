@@ -1,7 +1,8 @@
 {
   "dxf_version": "AC1024",
-  "dxf_model_entities": 845,
+  "dxf_model_entities": 875,
   "dxf_audit_errors": 0,
-  "kicad_readback_footprints": 47,
-  "kicad_readback_track_items": 525
+  "dxf_plane_hatches": 2,
+  "kicad_readback_footprints": 50,
+  "kicad_readback_track_items": 532
 }

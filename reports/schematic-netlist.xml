@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/work/cad/meridian-carrier.kicad_sch</source>
+    <date>2026-11-12T16:32:15</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Meridian industrial sensor carrier</title>
+        <company/>
+        <rev>B</rev>
+        <date/>
+        <source>meridian-carrier.kicad_sch</source>
+        <comment number="1" value="3.3 V bench integration"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100 nF</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d41f8405-ae28-5781-a2be-34e6bcc69c43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.7 uF</value>
+      <footprint>Meridian:Chip_0805_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0805_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b804646-98cf-53da-bda7-4f280680161c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>22 uF</value>
+      <footprint>Meridian:Chip_0805_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0805_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cb8dbb6-275e-5e7c-b6a9-52d9e00ddbaa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100 nF</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb20353c-74bb-5d1f-9085-e6855dc1137f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100 nF</value>
+      <footprint>Meridian:Chip_0603_V</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_V</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31186597-a60e-507c-9f9d-6b5ade554bae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100 nF</value>
+      <footprint>Meridian:Chip_0603_V</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_V</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Capacitor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba6916c8-97c2-586e-b8ef-882335da9333</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="LED_KA" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda81251-190f-52f1-a7ac-f30c1eee26fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>Green LED</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="LED_KA" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d37f591-f521-53ae-bd5a-e6498e9db44b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Controller interface</value>
+      <footprint>Meridian:Header_2x12_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_2x12_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Controller_2x12" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e3ef615-f007-51f3-8785-fe145efcfc56</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>RS-485 bus</value>
+      <footprint>Meridian:Header_1x03_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x03_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_3" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6f91275-01aa-5b8d-bf91-f775c052e277</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>SPI expansion</value>
+      <footprint>Meridian:Header_1x06_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x06_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_6" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>159689ab-7f5e-5b0b-9d60-943bc278e1bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>I2C expansion</value>
+      <footprint>Meridian:Header_1x04_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x04_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_4" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ea0ba48-331a-5f5d-a4d2-b8d30bb4c2a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>Analog inputs</value>
+      <footprint>Meridian:Header_1x03_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x03_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_3" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>623a569e-032a-56ec-99de-ab823a6e4668</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>Open-drain outputs</value>
+      <footprint>Meridian:Header_1x03_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x03_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_3" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e5c6bed-90cd-5d03-8ce8-5742dc94f286</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>Auxiliary 3.3 V input</value>
+      <footprint>Meridian:Header_1x02_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x02_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_2" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b622a0b6-5407-5efa-8777-430f4ee68800</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>GPIO expansion</value>
+      <footprint>Meridian:Header_1x06_V_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x06_V_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_6" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4763336-db7f-511f-83dc-be96bf282c9d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>RS-485 termination enable</value>
+      <footprint>Meridian:Header_1x02_H_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x02_H_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_2" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6523fe7e-0c60-5a88-a179-c11098576ad5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP2">
+      <value>I2C pull-up enable</value>
+      <footprint>Meridian:Header_1x02_H_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x02_H_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_2" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe572e6b-ce92-56d9-9717-d9ed682df6a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP3">
+      <value>3.3 V source select</value>
+      <footprint>Meridian:Header_1x03_H_P2p54mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Header_1x03_H_P2p54mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Connector_3" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76a508db-17b7-5ebb-91bf-f98838eafe97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Meridian:SOT_23</footprint>
+      <fields>
+        <field name="Footprint">Meridian:SOT_23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="NMOS_GSD" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8766386b-7d91-568e-af0b-f42a9b42c787</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>Meridian:SOT_23</footprint>
+      <fields>
+        <field name="Footprint">Meridian:SOT_23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="NMOS_GSD" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edd6ab6a-7f85-5280-ba75-0465d20f609d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d858efa-de8d-531a-b80c-6bf8a1c4ce48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>120 ohm</value>
+      <footprint>Meridian:Chip_0805_V</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0805_V</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6140e0e4-7b38-57bf-addf-caf0550347db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>4.7 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6910da07-d2c5-5ad6-8344-287fabc3e267</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.7 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5c3ffc-4a76-59c6-a41d-dc8365b752de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1db1801-208f-5b32-afd4-51da572f71ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>637c8e17-49a4-55f8-a301-6651ab091d49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100 ohm</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff3dc4ba-7905-55ec-9bdc-7d43d9bedc3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>978b06f0-ead3-50c6-a404-e330c7b0008c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100 ohm</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ab772b5-3dd1-5069-9e34-3bf87741e379</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>100 k</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fd322a8-482c-56b5-95c1-3a6c94358484</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>680 ohm</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c738d17d-99a9-583b-9d34-d6db8868d094</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>680 ohm</value>
+      <footprint>Meridian:Chip_0603_H</footprint>
+      <fields>
+        <field name="Footprint">Meridian:Chip_0603_H</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="Resistor" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12045c96-b1f1-5a83-80f5-e6220383a9fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>3V3</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68529037-46e5-5fea-be4e-bffcedc9fe26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c4b1fb3-be13-5707-b0d7-651f662cc2b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>UART_TX</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01d93698-0204-5b9a-b8a1-58ab539cf6bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>UART_RX</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97a493b3-59b5-5fc8-b779-79acdaab38e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>RS_DIR</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>377ed8ae-fc94-5cc8-bc92-40ab083a3d24</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP6">
+      <value>I2C_SDA</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>609ed130-2e83-5127-9051-3de1b76fa0fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP7">
+      <value>I2C_SCL</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ed1b77-1b1d-5358-9a2a-2ada43efdd75</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP8">
+      <value>ADC0</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abc8dfdd-c01c-534f-9163-e2f2fe4f2506</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP9">
+      <value>ADC1</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44f39e50-73fc-53f3-9d38-75ea5b5462e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP10">
+      <value>RESET_N</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e1eb1e2-5555-53a1-ae88-2b81e125ad34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP11">
+      <value>CTRL_3V3</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43cad7d0-14c3-58bd-870f-6576430ea8ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP12">
+      <value>AUX_3V3</value>
+      <footprint>Meridian:TestLand_1p5mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:TestLand_1p5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="TestPoint" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e11035e8-3a36-5b60-93b9-f4448930034b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>THVD1410DR</value>
+      <footprint>Meridian:SOIC_8_3p9x4p9mm</footprint>
+      <fields>
+        <field name="Footprint">Meridian:SOIC_8_3p9x4p9mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Meridian" part="THVD1410" description=""/>
+      <property name="Sheetname" value="meridian-carrier"/>
+      <property name="Sheetfile" value="meridian-carrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84b65191-8de3-598f-816b-1548dd40f302</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Meridian" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Connector_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Connector_3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Connector_4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Connector_6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Controller_2x12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Controller_2x12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="LED_KA">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_KA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="NMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS_GSD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="THVD1410">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">THVD1410</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Meridian" part="TestPoint">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Meridian">
+      <uri>${KIPRJMOD}/Meridian.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="TP_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADC0" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/ADC0_RAW" class="Default">
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/ADC1" class="Default">
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ADC1_RAW" class="Default">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/AUX_3V3" class="Default">
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/CTRL_3V3" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="24_24" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/GATE0" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/GATE1" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="23_23" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="TP_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND_5" pintype="power_in"/>
+    </net>
+    <net code="11" name="/GPIO0" class="Default">
+      <node ref="J1" pin="19" pinfunction="19_19" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="/GPIO1" class="Default">
+      <node ref="J1" pin="20" pinfunction="20_20" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/GPIO2" class="Default">
+      <node ref="J1" pin="21" pinfunction="21_21" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/GPIO3" class="Default">
+      <node ref="J1" pin="22" pinfunction="22_22" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="15" name="/I2C_PULLUP" class="Default">
+      <node ref="JP2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="16" name="/I2C_SCL" class="Default">
+      <node ref="J1" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="17" name="/I2C_SDA" class="Default">
+      <node ref="J1" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="18" name="/LED0" class="Default">
+      <node ref="J1" pin="16" pinfunction="16_16" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/LED1" class="Default">
+      <node ref="J1" pin="17" pinfunction="17_17" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/LED_AN0" class="Default">
+      <node ref="D1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="/LED_AN1" class="Default">
+      <node ref="D2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="/LOAD0" class="Default">
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="23" name="/LOAD1" class="Default">
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/OUT0" class="Default">
+      <node ref="J1" pin="14" pinfunction="14_14" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="25" name="/OUT1" class="Default">
+      <node ref="J1" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="26" name="/RESET_N" class="Default">
+      <node ref="J1" pin="18" pinfunction="18_18" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="TP_1" pintype="passive"/>
+    </net>
+    <net code="27" name="/RS_A" class="Default">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A_6" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/RS_B" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="B_7" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/RS_DIR" class="Default">
+      <node ref="J1" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="TP_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="~{RE}_2" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="DE_3" pintype="input"/>
+    </net>
+    <net code="30" name="/SPI_CS0" class="Default">
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="31" name="/SPI_MISO" class="Default">
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="32" name="/SPI_MOSI" class="Default">
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="33" name="/SPI_SCK" class="Default">
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="34" name="/TERM_SW" class="Default">
+      <node ref="JP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="35" name="/UART_RX" class="Default">
+      <node ref="J1" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="TP_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="R_1" pintype="output"/>
+    </net>
+    <net code="36" name="/UART_TX" class="Default">
+      <node ref="J1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="TP_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="D_4" pintype="input"/>
+    </net>
+  </nets>
+</export>

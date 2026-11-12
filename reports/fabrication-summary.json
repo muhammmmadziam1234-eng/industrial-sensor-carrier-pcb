@@ -1,0 +1,17 @@
+{
+  "gerber_functions": {
+    "meridian-carrier-B_Cu.gbl": "Copper,L4,Bot",
+    "meridian-carrier-B_Mask.gbs": "Soldermask,Bot",
+    "meridian-carrier-Edge_Cuts.gm1": "Profile,NP",
+    "meridian-carrier-F_Cu.gtl": "Copper,L1,Top",
+    "meridian-carrier-F_Mask.gts": "Soldermask,Top",
+    "meridian-carrier-F_Paste.gtp": "Paste,Top",
+    "meridian-carrier-F_Silkscreen.gto": "Legend,Top",
+    "meridian-carrier-In1_Cu.g1": "Copper,L2,Inr",
+    "meridian-carrier-In2_Cu.g2": "Copper,L3,Inr"
+  },
+  "plated_drill_hits": 117,
+  "nonplated_drill_hits": 4,
+  "top_smd_placements": 23,
+  "export_hashes": 16
+}

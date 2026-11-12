@@ -1,0 +1,5 @@
+(footprint "Mount_M3" (version 20221018) (generator meridian_export) (layer "F.Cu") (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.9) (layer "F.SilkS") (effects (font (size 0.85 0.85) (thickness 0.12))) (tstamp a46e748e-3003-5cbb-9fd0-f4e4f4740f52))
+  (fp_circle (center 0 0) (end 2.25 0) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 0a3af127-3acb-5e6f-8b27-7aa9d4c3a67f))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 799f309a-e594-5bb5-b309-99c35cfeb52f))
+)

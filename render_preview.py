@@ -3,12 +3,13 @@ from collections import Counter
 from pathlib import Path
 import json
 from PIL import Image,ImageDraw,ImageFont
-from board import VIA_DIA, VIA_DRILL
+from board import GRID, VIA_DIA, VIA_DRILL, track_width
+from planes import model
 from verify import EDGE
 
 ROOT=Path(__file__).parent
 PALETTE = ("#f5aa66","#a8db96","#6bcddf","#c9a8fc")
-TITLES=("Front copper","Inner 1 / ground priority","Inner 2 / supply priority","Back copper")
+TITLES=("Front signal and power","Inner 1 / ground plane","Inner 2 / 3.3 V plane","Back signal and power")
 SCALE=1.13
 BG="#142123"
 INK="#f4f4e9"
@@ -30,7 +31,7 @@ def dot(draw, center, radius, fill, outline=None):
     x,y=center
     draw.ellipse((x-radius,y-radius,x+radius,y+radius),fill=fill,outline=outline,width=1)
 
-def panel(draw, layout, ox, oy, layer):
+def panel(draw, layout, plane, ox, oy, layer):
     color=PALETTE[layer]
     fx=lambda x,y:(ox+54+x*SCALE,oy+65+y*SCALE)
     draw.rounded_rectangle((ox,oy,ox+560,oy+428),radius=14,fill="#1c2d2e",outline="#3d5351",width=1)
@@ -40,12 +41,17 @@ def panel(draw, layout, ox, oy, layer):
         draw.line([fx(x,13),fx(x,287)],fill="#2d4743")
     for y in range(20,300,20):
         draw.line([fx(13,y),fx(387,y)],fill="#2d4743")
+    if plane is not None:
+        point=lambda x,y:fx(x/GRID,y/GRID)
+        draw.polygon([point(x,y) for x,y in plane.exterior.coords],fill=("#4f6f4e" if layer==1 else "#315e67"))
+        for hole in plane.interiors:
+            draw.polygon([point(x,y) for x,y in hole.coords],fill="#213334")
     tracks=0
     for net,a,b in layout["traces"]:
         if a[2]!=layer:
             continue
         tracks+=1
-        draw.line([fx(*a[:2]),fx(*b[:2])],fill=color,width=2)
+        draw.line([fx(*a[:2]),fx(*b[:2])],fill=color,width=max(1,round(2*track_width(net)/.254)))
     for net,x,y in layout["vias"]:
         dot(draw,fx(x,y),VIA_DIA/.254*SCALE/2,color)
         dot(draw,fx(x,y),max(1,VIA_DRILL/.254*SCALE/2),"#273c39")
@@ -70,9 +76,10 @@ def render(layout, result):
     image=Image.new("RGB",(1220,1080),BG)
     draw=ImageDraw.Draw(image)
     draw.text((42,31),"Meridian I/O carrier",font=font(48,bold=True),fill=INK)
-    draw.text((45,92),"Four-layer PCB layout  /  101.60 × 76.20 mm  /  millimetre model",font=font(21),fill=SUB)
+    draw.text((45,92),"Revision B   /   four copper layers   /   101.60 × 76.20 mm",font=font(21),fill=SUB)
+    planes,_=model(layout)
     for index,(x,y) in enumerate(((42,146),(618,146),(42,588),(618,588))):
-        panel(draw,layout,x,y,index)
+        panel(draw,layout,planes.get(index),x,y,index)
     draw.text((44,1038),
         f'{result["nets"]} nets   /   {result["electrical_pads"]} electrical pads   /   {result["plated_vias"]} plated vias   /   {len(result["errors"])} geometry violations',
         font=font(16,mono=True),fill=SUB)

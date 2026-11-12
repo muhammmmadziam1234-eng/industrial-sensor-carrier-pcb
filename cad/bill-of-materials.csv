@@ -1,44 +1,48 @@
-Reference,Value,Package or connector pitch
-J1,Controller interface,2.54 mm 2x12
-J2,RS-485 bus,2.54 mm 1x3
-J3,SPI expansion,2.54 mm 1x6
-J4,I2C expansion,2.54 mm 1x4
-J5,Analog inputs,2.54 mm 1x3
-J6,Open-drain outputs,2.54 mm 1x3
-J7,3.3 V power input,2.54 mm 1x2
-J8,GPIO expansion,2.54 mm 1x6
-JP1,RS-485 termination enable,2.54 mm 1x2
-JP2,I2C pull-up enable,2.54 mm 1x2
-U1,THVD1450DR,SOIC-8 3.9 mm
-R1,10 k,0603
-R2,120 ohm,0805
-C1,100 nF,0603
-C2,4.7 uF,0805
-C3,22 uF,0805
-C4,100 nF,0603
-R3,4.7 k,0603
-R4,4.7 k,0603
-R5,1 k,0603
-R6,1 k,0603
-C5,100 nF,0603
-C6,100 nF,0603
-Q1,AO3400A,SOT-23
-R7,100 ohm,0603
-R8,100 k,0603
-R11,680 ohm,0603
-D1,Green LED,0603
-Q2,AO3400A,SOT-23
-R9,100 ohm,0603
-R10,100 k,0603
-R12,680 ohm,0603
-D2,Green LED,0603
-TP1,3V3,1.5 mm test land
-TP2,GND,1.5 mm test land
-TP3,UART_TX,1.5 mm test land
-TP4,UART_RX,1.5 mm test land
-TP5,RS_DIR,1.5 mm test land
-TP6,I2C_SDA,1.5 mm test land
-TP7,I2C_SCL,1.5 mm test land
-TP8,ADC0,1.5 mm test land
-TP9,ADC1,1.5 mm test land
-TP10,RESET_N,1.5 mm test land
+Reference,Value,Package or connector pitch,Manufacturer,Part number,Assembly note,Source,Population
+J1,Controller interface,2.54 mm 2x12,Samtec,TSW-112-07-L-D,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-112-07-l-d,Fit
+J2,RS-485 bus,2.54 mm 1x3,Samtec,TSW-103-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-103-07-l-s,Fit
+J3,SPI expansion,2.54 mm 1x6,Samtec,TSW-106-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-106-07-l-s,Fit
+J4,I2C expansion,2.54 mm 1x4,Samtec,TSW-104-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-104-07-l-s,Fit
+J5,Analog inputs,2.54 mm 1x3,Samtec,TSW-103-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-103-07-l-s,Fit
+J6,Open-drain outputs,2.54 mm 1x3,Samtec,TSW-103-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-103-07-l-s,Fit
+J7,Auxiliary 3.3 V input,2.54 mm 1x2,Samtec,TSW-102-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-102-07-l-s,Fit
+J8,GPIO expansion,2.54 mm 1x6,Samtec,TSW-106-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-106-07-l-s,Fit
+JP1,RS-485 termination enable,2.54 mm 1x2,Samtec,TSW-102-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-102-07-l-s,Fit
+JP2,I2C pull-up enable,2.54 mm 1x2,Samtec,TSW-102-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-102-07-l-s,Fit
+JP3,3.3 V source select,2.54 mm 1x3,Samtec,TSW-103-07-L-S,Vertical 2.54 mm header; review mating connector,https://www.samtec.com/products/tsw-103-07-l-s,Fit
+U1,THVD1410DR,SOIC-8 3.9 mm,Texas Instruments,THVD1410DR,"SOIC D, half-duplex transceiver",https://www.ti.com/product/THVD1410/part-details/THVD1410DR,Fit
+R1,10 k,0603,Yageo,RC0603FR-0710KL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R2,120 ohm,0805,Yageo,RC0805FR-07120RL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+C1,100 nF,0603,TDK,C1608X7R1E104K080AA,"0603 X7R, 25 V, ±10%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA,Fit
+C2,4.7 uF,0805,TDK,C2012X5R1E475K125AB,"0805 X5R, 25 V, ±10%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1E475K125AB,Fit
+C3,22 uF,0805,TDK,C2012X5R1A226M125AB,"0805 X5R, 10 V, ±20%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X5R1A226M125AB,Fit
+C4,100 nF,0603,TDK,C1608X7R1E104K080AA,"0603 X7R, 25 V, ±10%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA,Fit
+R3,4.7 k,0603,Yageo,RC0603FR-074K7L,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R4,4.7 k,0603,Yageo,RC0603FR-074K7L,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R5,1 k,0603,Yageo,RC0603FR-071KL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R6,1 k,0603,Yageo,RC0603FR-071KL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+C5,100 nF,0603,TDK,C1608X7R1E104K080AA,"0603 X7R, 25 V, ±10%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA,Fit
+C6,100 nF,0603,TDK,C1608X7R1E104K080AA,"0603 X7R, 25 V, ±10%",https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E104K080AA,Fit
+Q1,AO3400A,SOT-23,Alpha & Omega Semiconductor,AO3400A,"SOT-23, gate/source/drain pins 1/2/3",https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf,Fit
+R7,100 ohm,0603,Yageo,RC0603FR-07100RL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R8,100 k,0603,Yageo,RC0603FR-07100KL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R11,680 ohm,0603,Yageo,RC0603FR-07680RL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+D1,Green LED,0603,Lite-On,LTST-C190KGKT,"0603 green, pin 1 cathode",https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF,Fit
+Q2,AO3400A,SOT-23,Alpha & Omega Semiconductor,AO3400A,"SOT-23, gate/source/drain pins 1/2/3",https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf,Fit
+R9,100 ohm,0603,Yageo,RC0603FR-07100RL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R10,100 k,0603,Yageo,RC0603FR-07100KL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+R12,680 ohm,0603,Yageo,RC0603FR-07680RL,1% thick-film resistor,https://www.yageo.com/en/Product/Index/rchip,Fit
+D2,Green LED,0603,Lite-On,LTST-C190KGKT,"0603 green, pin 1 cathode",https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF,Fit
+TP1,3V3,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP2,GND,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP3,UART_TX,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP4,UART_RX,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP5,RS_DIR,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP6,I2C_SDA,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP7,I2C_SCL,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP8,ADC0,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP9,ADC1,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP10,RESET_N,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP11,CTRL_3V3,1.5 mm test land,,,Bare copper test land,,No purchased part
+TP12,AUX_3V3,1.5 mm test land,,,Bare copper test land,,No purchased part
+SH1-SH3,Removable shunts,2.54 mm,,,One source shunt is required. Fit the other two only as needed.,,Install by configuration

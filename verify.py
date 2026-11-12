@@ -3,7 +3,7 @@ from collections import Counter, defaultdict
 import json
 from pathlib import Path
 from shapely import LineString, Point, Polygon, STRtree, box
-from board import CLEARANCE, GRID, H, LAYER_NAMES, SIGNAL_WIDTH, VIA_DIA, VIA_DRILL, W
+from board import CLEARANCE, GRID, H, LAYER_NAMES, SIGNAL_WIDTH, POWER_WIDTH, VIA_DIA, VIA_DRILL, W, track_width
 
 ROOT = Path(__file__).parent
 EDGE = [(12, 0), (W-12, 0), (W, 12), (W, H-12),
@@ -50,7 +50,7 @@ def inspect(layout):
             errors.append(f"Degenerate segment {i}")
             continue
         track_count[LAYER_NAMES[start[2]]] += 1
-        add(f"Track {i}",net,LineString([a,b]).buffer(SIGNAL_WIDTH/2),[start[2]])
+        add(f"Track {i}",net,LineString([a,b]).buffer(track_width(net)/2),[start[2]])
     for i,(net,x,y) in enumerate(layout["vias"]):
         point = Point(*mm(x,y))
         key = f"Via {i}"
@@ -101,7 +101,8 @@ def inspect(layout):
         "copper_to_edge_mm":.50,
         "copper_to_mount_hole_mm":.50,
         "hole_clearance_mm":.25,
-        "track_width_mm":SIGNAL_WIDTH,
+        "signal_width_mm":SIGNAL_WIDTH,
+        "power_width_mm":POWER_WIDTH,
         "plated_vias":sum(via_count.values()),
         "tracks_by_layer":dict(track_count),
         "errors":errors,
