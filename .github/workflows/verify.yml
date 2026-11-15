@@ -1,0 +1,26 @@
+name: Verify geometry
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Regenerate the design and run its geometry checks
+        run: |
+          python schematic.py
+          python route.py
+          python verify.py
+          python check_verifier.py
+          python planes.py
+          python export_cad.py
+      - name: The committed evidence files must match what the scripts produce
+        run: git diff --exit-code -- layout.json verification.json plane-verification.json cad/export-checks.json
