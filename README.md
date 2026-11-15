@@ -1,5 +1,7 @@
 # Meridian Industrial Sensor Carrier · Revision B
 
+[![Geometry checks](https://github.com/muhammmmadziam1234-eng/industrial-sensor-carrier-pcb/actions/workflows/verify.yml/badge.svg?branch=main)](https://github.com/muhammmmadziam1234-eng/industrial-sensor-carrier-pcb/actions/workflows/verify.yml)
+
 Meridian is a four-layer PCB design for integrating a 3.3 V controller with RS-485, SPI, I²C, analog sensing, and low-side loads. Revision B adds a hardware supply selector, wider power routes, dedicated inner copper planes, and an editable schematic and layout tied to the same pin map.
 
 ![Native KiCad render of the Revision B bare board, with pads and top silkscreen visible](media/meridian-board-render.png)
