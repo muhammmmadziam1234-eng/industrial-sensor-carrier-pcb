@@ -15,17 +15,23 @@ BG="#142123"
 INK="#f4f4e9"
 SUB="#acbfbd"
 
+FONTS=ROOT/"fonts"
+
 def font(size,bold=False,mono=False):
-    options = ["consola.ttf", "DejaVuSansMono.ttf"] if mono else [
+    # Segoe UI and Consolas where installed, else the open stand-ins bundled in fonts/.
+    options = ["consola.ttf", FONTS/"Inconsolata-Variable.ttf"] if mono else [
         "seguisb.ttf" if bold else "segoeui.ttf",
-        "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf",
+        FONTS/("Selawik-Semibold.ttf" if bold else "Selawik-Regular.ttf"),
     ]
     for path in options:
         try:
-            return ImageFont.truetype(path,size)
+            loaded=ImageFont.truetype(str(path),size)
         except OSError:
             continue
-    return ImageFont.load_default(size=size)
+        if mono and path==FONTS/"Inconsolata-Variable.ttf":
+            loaded.set_variation_by_axes([500,100])  # weight, width: a little heavier than regular for small captions
+        return loaded
+    raise FileNotFoundError(f"No usable typeface among {[str(o) for o in options]}")
 
 def dot(draw, center, radius, fill, outline=None):
     x,y=center
@@ -70,7 +76,7 @@ def panel(draw, layout, plane, ox, oy, layer):
             draw.text((x+7,y-13),item["ref"],font=font(11,mono=True),fill="#f8e7b3",stroke_width=1,stroke_fill="#263f3b")
     for x,y in layout["mounting"]:
         dot(draw,fx(x,y),7.1,"#142123","#b7c6be")
-    draw.text((ox+20,oy+408),f"{tracks} copper segments",font=font(13,mono=True),fill=SUB)
+    draw.text((ox+20,oy+404),f"{tracks} copper segments",font=font(15,mono=True),fill=SUB)
 
 def render(layout, result):
     image=Image.new("RGB",(1220,1080),BG)
@@ -82,7 +88,7 @@ def render(layout, result):
         panel(draw,layout,planes.get(index),x,y,index)
     draw.text((44,1038),
         f'{result["nets"]} nets   /   {result["electrical_pads"]} electrical pads   /   {result["plated_vias"]} plated vias   /   {len(result["errors"])} geometry violations',
-        font=font(16,mono=True),fill=SUB)
+        font=font(18,mono=True),fill=SUB)
     (ROOT/"media").mkdir(exist_ok=True)
     image.save(ROOT/"media"/"four-layer-inspection.png",optimize=True)
 
