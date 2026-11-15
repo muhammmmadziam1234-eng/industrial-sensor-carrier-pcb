@@ -1,0 +1,561 @@
+{
+  "checks": [
+    {
+      "actual": [
+        "bottom-copper",
+        "bottom-mask",
+        "inner_1-copper",
+        "inner_2-copper",
+        "mechanical-outline",
+        "top-copper",
+        "top-mask",
+        "top-paste",
+        "top-silk"
+      ],
+      "description": "Nine Gerber layers are present and readable",
+      "expected": [
+        "bottom-copper",
+        "bottom-mask",
+        "inner_1-copper",
+        "inner_2-copper",
+        "mechanical-outline",
+        "top-copper",
+        "top-mask",
+        "top-paste",
+        "top-silk"
+      ],
+      "id": "gerber-layers",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "description": "Board outline is one closed loop",
+      "expected": true,
+      "id": "outline-closed",
+      "passed": true
+    },
+    {
+      "actual": [
+        101.6,
+        76.2
+      ],
+      "description": "Board is 101.60 x 76.20 mm (within 0.005 mm)",
+      "expected": [
+        101.6,
+        76.2
+      ],
+      "id": "outline-size",
+      "passed": true
+    },
+    {
+      "actual": 284,
+      "description": "F.Cu: tracks in the Gerber equal tracks in the saved board",
+      "expected": 284,
+      "id": "tracks-F.Cu",
+      "passed": true
+    },
+    {
+      "actual": 45,
+      "description": "In1.Cu: tracks in the Gerber equal tracks in the saved board",
+      "expected": 45,
+      "id": "tracks-In1.Cu",
+      "passed": true
+    },
+    {
+      "actual": 29,
+      "description": "In2.Cu: tracks in the Gerber equal tracks in the saved board",
+      "expected": 29,
+      "id": "tracks-In2.Cu",
+      "passed": true
+    },
+    {
+      "actual": 115,
+      "description": "B.Cu: tracks in the Gerber equal tracks in the saved board",
+      "expected": 115,
+      "id": "tracks-B.Cu",
+      "passed": true
+    },
+    {
+      "actual": 183,
+      "description": "Top copper flashes = SMD pads + through-hole pads + vias",
+      "expected": 183,
+      "id": "flashes-top-copper",
+      "passed": true
+    },
+    {
+      "actual": 117,
+      "description": "inner_1 flashes = through-hole pads + vias",
+      "expected": 117,
+      "id": "flashes-inner_1",
+      "passed": true
+    },
+    {
+      "actual": 117,
+      "description": "inner_2 flashes = through-hole pads + vias",
+      "expected": 117,
+      "id": "flashes-inner_2",
+      "passed": true
+    },
+    {
+      "actual": 117,
+      "description": "bottom flashes = through-hole pads + vias",
+      "expected": 117,
+      "id": "flashes-bottom",
+      "passed": true
+    },
+    {
+      "actual": 128,
+      "description": "Top mask openings = every pad on the board",
+      "expected": 128,
+      "id": "flashes-top-mask",
+      "passed": true
+    },
+    {
+      "actual": 54,
+      "description": "Top paste openings = SMD pads of fitted parts (test lands get no paste)",
+      "expected": 54,
+      "id": "flashes-top-paste",
+      "passed": true
+    },
+    {
+      "actual": 62,
+      "description": "Bottom mask openings = through-hole and mounting pads (vias are tented)",
+      "expected": 62,
+      "id": "flashes-bottom-mask",
+      "passed": true
+    },
+    {
+      "actual": {
+        "0.3": 59,
+        "1.05": 58
+      },
+      "description": "Plated drill hits by diameter = via drills + through-hole pad drills",
+      "expected": {
+        "0.3": 59,
+        "1.05": 58
+      },
+      "id": "drill-plated",
+      "passed": true
+    },
+    {
+      "actual": {
+        "3.2": 4
+      },
+      "description": "Unplated drill hits = mounting holes in the board (3.20 mm)",
+      "expected": {
+        "3.2": 4
+      },
+      "id": "drill-unplated",
+      "passed": true
+    },
+    {
+      "actual": [
+        117,
+        4
+      ],
+      "description": "117 plated and 4 unplated hits",
+      "expected": [
+        117,
+        4
+      ],
+      "id": "drill-total",
+      "passed": true
+    },
+    {
+      "actual": [],
+      "description": "Every reference appears once in the bill of materials",
+      "expected": [],
+      "id": "refs-unique",
+      "passed": true
+    },
+    {
+      "actual": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "JP1",
+        "JP2",
+        "JP3",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "U1"
+      ],
+      "description": "Bill of materials references = components on the board, plus the removable shunts",
+      "expected": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "JP1",
+        "JP2",
+        "JP3",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "U1"
+      ],
+      "id": "bom-vs-board",
+      "passed": true
+    },
+    {
+      "actual": [
+        "Removable shunts"
+      ],
+      "description": "The one bill-of-materials row that is not a board footprint is the removable shunts SH1-SH3",
+      "expected": [
+        "Removable shunts"
+      ],
+      "id": "bom-shunts",
+      "passed": true
+    },
+    {
+      "actual": [
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9"
+      ],
+      "description": "Rows marked 'No purchased part' are exactly the bare-copper test lands on the board",
+      "expected": [
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9"
+      ],
+      "id": "bom-test-lands",
+      "passed": true
+    },
+    {
+      "actual": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "U1"
+      ],
+      "description": "Placement file = every fitted part with SMD pads (all on top; test lands are not placed)",
+      "expected": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "U1"
+      ],
+      "id": "placement-vs-board",
+      "passed": true
+    },
+    {
+      "actual": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "JP1",
+        "JP2",
+        "JP3",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "U1"
+      ],
+      "description": "Schematic symbols = components on the board",
+      "expected": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "D1",
+        "D2",
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8",
+        "JP1",
+        "JP2",
+        "JP3",
+        "Q1",
+        "Q2",
+        "R1",
+        "R10",
+        "R11",
+        "R12",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "TP1",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "U1"
+      ],
+      "id": "schematic-vs-board",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "description": "Every track is at least the signal minimum in the design rules",
+      "expected": true,
+      "id": "rule-track-width",
+      "passed": true
+    },
+    {
+      "actual": [],
+      "description": "Tracks on the power nets named in the design rules meet the power minimum",
+      "expected": [],
+      "id": "rule-power-width",
+      "passed": true
+    },
+    {
+      "actual": true,
+      "description": "Every via drill meets the hole-size rule",
+      "expected": true,
+      "id": "rule-via-drill",
+      "passed": true
+    }
+  ],
+  "gerbonara": "1.6.3",
+  "inputs": [
+    "fab/gerbers/*",
+    "fab/drill/*",
+    "fab/top-placement.csv",
+    "cad/bill-of-materials.csv",
+    "cad/meridian-carrier.kicad_pcb",
+    "cad/meridian-carrier.kicad_sch",
+    "cad/meridian-carrier.kicad_dru"
+  ],
+  "measured": {
+    "board_mm": [
+      101.6,
+      76.2
+    ],
+    "drills_mm": {
+      "plated": {
+        "0.3": 59,
+        "1.05": 58
+      },
+      "unplated": {
+        "3.2": 4
+      }
+    },
+    "pads": {
+      "electrical": 124,
+      "mounting_hole": 4,
+      "smd": 66,
+      "through_hole": 58,
+      "vias": 59
+    },
+    "parts": {
+      "board": 46,
+      "bom_rows": 46,
+      "placement": 23,
+      "schematic": 46
+    },
+    "rules_mm": {
+      "min_power_track": 0.508,
+      "min_signal_track": 0.254,
+      "min_via_drill": 0.3,
+      "power_nets": [
+        "/3V3",
+        "/AUX_3V3",
+        "/CTRL_3V3",
+        "/GND",
+        "/LOAD0",
+        "/LOAD1"
+      ]
+    },
+    "track_widths_mm": [
+      0.254,
+      0.508
+    ],
+    "tracks": {
+      "B.Cu": 115,
+      "F.Cu": 284,
+      "In1.Cu": 45,
+      "In2.Cu": 29
+    }
+  },
+  "not_used": [
+    "layout.json",
+    "verification.json",
+    "the generator scripts"
+  ],
+  "passed": true
+}
